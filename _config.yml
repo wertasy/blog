@@ -5,7 +5,7 @@ header-img: img/home-bg-art.jpg
 email: wertasy@qq.com
 description: "关于前端与设计、黑客与画家。"
 keyword: "王灿辉"
-url: "wertasy.coding.me"              # your host, for absolute URL
+url: "wertasy.coding.me/blog"              # your host, for absolute URL
 baseurl: "/blog"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 

@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "使用 RVM 安装 Ruby"
-subtitle:   "  Hello, \"Ruby\" "
+subtitle:   "Hello, Ruby"
 date:       2018-04-05 17:46:48
 author:     "wertasy"
 header-img: "img/home-bg-o.jpg"

@@ -11,3 +11,11 @@ tags:
 ---
 
 ## 愚人节快乐
+
+```c
+#include <stdio.h>
+void main()
+{
+    printf("hello, world!");
+}
+```

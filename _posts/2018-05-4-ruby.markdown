@@ -32,17 +32,19 @@ rvm reload
 
 ```bash
 rvm requirements run
-
 Checking requirements for centos.
 Requirements installation successful.
 ```
 
 ## 步骤5.使用淘宝源
+
 修改 RVM ，改用淘宝镜像作为下载源, 提高安装速度。
+
 ```bash
 sed -i -E 's!https?://cache.ruby-lang.org/pub/ruby!https://ruby.taobao.org/mirrors/ruby!' $rvm_path/config/db
 ```
 ## 步骤4.安装Ruby 2.4
+
 完成RVM环境设置后，可以使用以下命令安装Ruby语言。
 
 ```bash
@@ -51,16 +53,21 @@ rvm install 2.4.1
 ```
 
 ## 步骤5.切换到Ruby 2.4
+
 ```bash
 rvm use 2.4.0 --default
 rvm list  #查看已安装的ruby版本
 ```
+
 ## Q&A
 提示错误：
+
 ```bash
 You need to change your terminal emulator preferences to allow login shell.
 ```
+
 解决方法：
+
 ```bash
 echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >>~/.bashrc
 source ~/.bashrc

@@ -33,7 +33,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems renamed to plugins
 # from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
 
 
 
@@ -61,7 +61,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-3'            # Format: UA-xxxxxx-xx
-ga_domain: wertasy.cn
+ga_domain: coding.me
 
 
 
@@ -74,7 +74,7 @@ sidebar-avatar: /img/avatar-hui.png      # use absolute URL, seeing it's used in
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 

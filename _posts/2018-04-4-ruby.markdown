@@ -8,7 +8,9 @@ header-img: "img/home-bg-o.jpg"
 catalog: true
 tags:
     - Linux
+    
 ---
+
 
 ## 步骤1.安装RVM
 使用以下命令在系统上安装最新稳定版本的RVM。

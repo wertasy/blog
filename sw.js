@@ -32,7 +32,7 @@ const PRECACHE_LIST = [
 ]
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
-  "wertasy.coding.me/blog",
+  "wertasy.coding.me",
   "cdnjs.cloudflare.com"
 ]
 const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
@@ -86,7 +86,7 @@ const shouldRedirect = (req) => (isNavigationReq(req) && new URL(req.url).pathna
 // P.P.S. Always trust url.pathname instead of the whole url string.
 const getRedirectUrl = (req) => {
   url = new URL(req.url)
-  url.pathname += "/"
+  url.pathname += "/blog/"
   return url.href
 }
 

@@ -1,17 +1,21 @@
 ---
-layout:     post
-title:      "Ruby in Linux"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2018-04-05 12:00:00
-author:     "Hux"
-header-img: "img/post-bg-2015.jpg"
-catalog: true
+layout:       post
+title:        "Ruby in Linux"
+subtitle:     " \"Hello World, Hello Blog\""
+date:         2018-04-05 12:00:00
+author:       "wertasy"
+header-img:   "img/post-bg-2015.jpg"
+heard-musk:   0.3
+multilingual: false
+catalog:      true
 tags:
-    - Linux
+  - Linux
+  - Ruby
 ---
 
 
 ## 步骤1.安装RVM
+
 使用以下命令在系统上安装最新稳定版本的RVM。
 此命令将自动下载所有所需的文件并在系统上安装。
 
@@ -28,6 +32,7 @@ rvm reload
 ```
 
 ## 步骤2.验证依赖关系
+
 现在使用以下命令验证所有依赖项是否已正确安装。
 
 ```bash
@@ -43,6 +48,7 @@ Requirements installation successful.
 ```bash
 sed -i -E 's!https?://cache.ruby-lang.org/pub/ruby!https://ruby.taobao.org/mirrors/ruby!' $rvm_path/config/db
 ```
+
 ## 步骤4.安装Ruby 2.4
 
 完成RVM环境设置后，可以使用以下命令安装Ruby语言。
@@ -60,6 +66,7 @@ rvm list  #查看已安装的ruby版本
 ```
 
 ## Q&A
+
 提示错误：
 
 ```bash

@@ -5,17 +5,17 @@ header-img: img/home-bg.jpg
 email: wertasy@qq.com
 description: "关于前端与设计、黑客与画家。"
 keyword: "王灿辉"
-url: "wertasy.coding.me"              # your host, for absolute URL
+url: "http://wertasy.coding.me"              # your host, for absolute URL
 baseurl: "/blog"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     wertasy
-zhihu_username:     wang-can-hui-82
-github_username:    wertasy
-twitter_username:   wertasy
+weibo_username:      wertasy
+zhihu_username:      wang-can-hui-82
+github_username:     wertasy
+twitter_username:    wertasy
 #facebook_username:  wertasy
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -60,8 +60,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-3'            # Format: UA-xxxxxx-xx
-ga_domain: coding.me
+# ga_track_id: 'UA-49627206-3'            # Format: UA-xxxxxx-xx
+# ga_domain: coding.me
 
 
 

@@ -9,7 +9,9 @@ heard-musk:   0.3
 multilingual: false
 catalog:      true
 tags:
-    - Linux - Shell - Bash
+    - Linux 
+    - Shell 
+    - Bash
 ---
 
 ##  变量说明: 

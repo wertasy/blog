@@ -4,7 +4,6 @@ title:        "shell里的特殊变量"
 subtitle:     "linux中shell变量$#,$@,$0,$1,$2的含义解释"
 date:         2018-4-6 15:48:39
 header-img:   "img/post/ubuntu-016.jpg"
-catalog:      true
 tags:
     - Linux 
     - Shell 

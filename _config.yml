@@ -86,9 +86,9 @@ service-worker: true
 
 
 # Friends
-friends: false #[
-    # {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-# ]
+friends: [
+     {
+         title: "clj",
+         href: "http://su.gallery/"
+     }
+]

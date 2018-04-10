@@ -2,7 +2,7 @@
 layout          :           post
 title           :           "Liquid 基础语法"
 subtitle        :           "来点标签魔法怎么样"
-date            :           2018-4-9
+date            :           "2018-4-10 18:07:09"
 header-img      :           "img/home-bg-float.jpg"
 heard-mask      :           0.3
 catalog         :           true
@@ -96,10 +96,9 @@ We made 1 million dollars {% comment %} in losses {% endcomment %} this year.
 {% endraw %}
 ```
 ### Raw | raw 转义
+
 {% assign openTag = '{%' %}
-
 Raw暂时禁用标签处理。一般的文本，直接将其放到 {{ openTag }} raw %} {{ openTag }} endraw %} 中即可转义。例如：
-
 ```liquid
 {{ openTag }} raw %}
 {% raw %}

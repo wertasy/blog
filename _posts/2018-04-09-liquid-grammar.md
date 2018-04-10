@@ -96,16 +96,17 @@ We made 1 million dollars {% comment %} in losses {% endcomment %} this year.
 {% endraw %}
 ```
 ### Raw | raw 转义
-
-Raw暂时禁用标签处理。一般的文本，直接将其放到 {% raw %} {% endraw %} 中即可转义。例如：
-```liquid
 {% assign openTag = '{%' %}
+
+Raw暂时禁用标签处理。一般的文本，直接将其放到 {{ openTag }} raw %} {{ openTag }} endraw %} 中即可转义。例如：
+
+```liquid
 {{ openTag }} raw %}
 {% raw %}
-In Handlebars, {{ this }} will be HTML-escaped, but {{{ that }}} will not. 
+In Handlebars, {{ this }} will be HTML-escaped, 
+but {{{ that }}} will not. 
 {% endraw %}
 {{ openTag }} endraw %}
-
 ```
 
 解决办法就是将 {{ openTag }} 赋值给一个变量，在需要输出 {{ openTag }} 的时候，输出这个变量的值。
@@ -118,9 +119,6 @@ if / else语句对任何其他编程语言都应该是众所周知的。Liquid�
 {% if user %} 
 Hello {{ user.name }} 
 {% endif %}
-
-如果需要转义 {% raw %} {% endraw %} 自身，直接使用会出错。
-
 
 # Same as above 
 {% if user != null %} 

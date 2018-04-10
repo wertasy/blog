@@ -3,6 +3,10 @@ layout: default
 ---
 <!-- Post Header -->
 <style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
+    }
     {% if site.header-mask %}
     header.intro-header .header-mask{
         width: 100%;
@@ -12,8 +16,8 @@ layout: default
     }
     {% endif %}
 </style>
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<!-- Wertasy Page Header -->
+<header class="intro-header">
     <div class="header-mask"></div>
     <div class="container">
         <div class="row">

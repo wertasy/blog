@@ -1,13 +1,12 @@
 ---
-layout             :       post
-title                 :        "Liquid 基础语法"
-subtitle           :       "来点标签魔法怎么样"
-date                :        2018-4-9
-header-img   :        "img/home-bg-art.jpg"
-heard-musk  :        0.3
-catalog           :        true
-tags                :
-    - Liquid
+layout          :           post
+title           :           "Liquid 基础语法"
+subtitle        :           "来点标签魔法怎么样"
+date            :           2018-4-9
+header-img      :           "img/home-bg-art.jpg"
+heard-musk      :           0.3
+catalog         :           true
+tags            :           - Liquid
 ---
 
 ## Output | 输出
@@ -28,7 +27,7 @@ Hello {{ 'tobi' }}
 
 代码示例：
 
-```
+```liquid
 {% raw %}
 Hello {{ 'tobi' | upcase }} 
 Hello tobi has {{ 'tobi' | size }} letters! 
@@ -92,7 +91,7 @@ unless | if的反义词
 ### Comments | 注释
 
 注释是最简单的标签，它会隐藏标记的内容。例如：
-```
+```liquid
 {% raw %}
 We made 1 million dollars {% comment %} in losses {% endcomment %} this year.
 {% endraw %}
@@ -100,7 +99,7 @@ We made 1 million dollars {% comment %} in losses {% endcomment %} this year.
 ### Raw | 
 
 Raw暂时禁用标签处理。这是用于生成内容，它使用相互矛盾的语法非常有用。例如：
-```
+```liquid
 {% assign openTag = '{%' %}
 {{ openTag }} raw %}
 {% raw %}
@@ -111,7 +110,7 @@ In Handlebars, {{ this }} will be HTML-escaped, but {{{ that }}} will not.
 ### If / Else
 
 if / else语句对任何其他编程语言都应该是众所周知的。Liquid允许使用if,unless,以及可选的elsif和else,例如：
-```
+```liquid
 {% raw %}
 {% if user %} 
 Hello {{ user.name }} 
@@ -175,7 +174,7 @@ string includes 'hello'
 ### Case Statement
 
 如果您需要更多的条件，您可以使用case语句：
-```
+```liquid
 {% raw %}
 {% case condition %} 
 {% when 1 %} 
@@ -188,7 +187,7 @@ hit 2 or 3
 {% endraw %}
 ```
 例如：
-```
+```liquid
 {% raw %}
 {% case template %} 
 {% when 'label' %}   
@@ -203,7 +202,7 @@ hit 2 or 3
 ### Cycle
 
 通常你有不同的颜色或类似的任务之间切换。 Liquid已经内置了对此类操作的支持，使用cycle标记。
-```
+```liquid
 {% raw %}
 {% cycle 'one', 'two', 'three' %} 
 {% cycle 'one', 'two', 'three' %} 
@@ -234,7 +233,7 @@ one two one two
 ## For loops
 
 Liquid 可以使用for遍历集合。
-```
+```liquid
 {% raw %}
 {% for item in array %}
 {{ item }}
@@ -242,7 +241,7 @@ Liquid 可以使用for遍历集合。
 {% endraw %}
 ```
 当遍历一个键值对集合时，item[0]是key的值，item[1]则是value的值。
-```
+```liquid
 {% raw %}
 {% for item in hash %} 
 {{ item[0] }}: {{ item[1] }} 
@@ -256,7 +255,7 @@ forloop.length # => 整个for循环的长度 forloop.index # => 当前迭代的�
 你还可以使用多个属性来过滤循环中的内容。
 
 limit:int可以限制你有多少个项目获得 offset:int可以让你从第n项开始遍历。
-```
+```liquid
 {% raw %}
 # array = [1,2,3,4,5,6] 
 {% for item in array limit:2 offset:2 %} 
@@ -267,7 +266,7 @@ limit:int可以限制你有多少个项目获得 offset:int可以让你从第n�
 ```
 
 倒序循环
-```
+```liquid
 {% raw %}
 {% for item in collection reversed %} 
 	{{item}} 
@@ -276,7 +275,7 @@ limit:int可以限制你有多少个项目获得 offset:int可以让你从第n�
 ```
 
 你可以通过定义一系列的数字来代替现有的集合循环。范围可以通过包括文本和变量的数字来定义：
-```
+```liquid
 {% raw %}
 # if item.quantity is 4... 
 {% for i in (1..item.quantity) %} 
@@ -290,7 +289,7 @@ limit:int可以限制你有多少个项目获得 offset:int可以让你从第n�
 ## Variable Assignment
 
 您可以将数据存储在自己的变量，在输出或其他标记随意使用。创建一个变量最简单的方法是使用assign标签，它有一个非常简单的语法：
-```
+```liquid
 {% raw %}
 {% assign name = 'freestyle' %} 
 {% for t in collections.tags %} 
@@ -302,7 +301,7 @@ Freestyle!
 ```
 
 这个标签的另一种用法是分配true / false值：
-```
+```liquid
 {% raw %}
 {% assign freestyle = false %} 
 {% for t in collections.tags %} 

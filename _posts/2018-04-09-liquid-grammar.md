@@ -10,13 +10,14 @@ tags                :
     - Liquid
 ---
 
+{% raw %}
 ## Output | 输出
 
 简单输出示例：
 
 ```liquid
 Hello {{name}} 
-Hello {{user.name}} 
+Hello {{user.name}}
 Hello {{ 'tobi' }}
 ```
 
@@ -283,3 +284,4 @@ Freestyle!
 ```
 如果你想将多个字符串合并成一个单一的字符串，并将其保存到变量中，你可以使用capture标记。这个标签“捕获”内容无论它是否已经实现，然后分配捕获的值。而不是只能捕获屏幕上已经存在的内容。
 
+{% endraw %}

@@ -68,7 +68,6 @@ remove | 删除，例如：{{'f barfoobar' \| remove:'foo' }} #=> 'barbar'
  times|乘法，例如：{{ 5 \| times:4 }} #=> 20
  divided_by|除法，例如：{{ 10 \| divided_by:2 }} #=> 5
 split|通过正则表达式切分字符串为数组，例如：{{"a~b" \| split:"~" }} #=> ['a','b']
-
  modulo|取模，例如：{{ 3 \| modulo:2 }} #=> 1
 
 ## 标记

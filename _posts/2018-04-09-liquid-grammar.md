@@ -106,9 +106,10 @@ In Handlebars, {{ this }} will be HTML-escaped, but {{{ that }}} will not.
 {% endraw %}
 {{ openTag }} endraw %}
 
-解决办法就是将 {% 赋值给一个变量，在需要输出 {% 的时候，输出这个变量的值。
-
 ```
+
+解决办法就是将 {{ openTag }} 赋值给一个变量，在需要输出 {{ openTag }} 的时候，输出这个变量的值。
+
 ### If / Else
 
 if / else语句对任何其他编程语言都应该是众所周知的。Liquid允许使用if,unless,以及可选的elsif和else,例如：

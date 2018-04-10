@@ -1,13 +1,14 @@
 # Site settings
-title: WERTASY
-SEOTitle: 王灿辉的博客 | WERTASY
-header-img: img/home-bg-glass.jpg
-email: wertasy@qq.com
-author: wertasy
-description: "关于前端与设计、黑客与画家。"
-keyword: "王灿辉"
-url: "https://wertasy.coding.me"              # your host, for absolute URL
-baseurl: "/blog"                             # for example, '/blog' if your blog hosted on 'host/blog'
+title:          WERTASY
+SEOTitle:       王灿辉的博客 | WERTASY
+header-img:     img/home-bg-roadsign.jpg
+header-mask:    0.3
+email:          wertasy@qq.com
+author:         wertasy
+description:    "关于前端与设计、黑客与画家。"
+keyword:        "王灿辉"
+url:            "https://wertasy.coding.me"              # your host, for absolute URL
+baseurl:        "/blog"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 

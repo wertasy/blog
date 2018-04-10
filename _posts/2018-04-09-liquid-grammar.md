@@ -3,7 +3,7 @@ layout          :           post
 title           :           "Liquid 基础语法"
 subtitle        :           "来点标签魔法怎么样"
 date            :           2018-4-9
-header-img      :           "img/home-bg-art.jpg"
+header-img      :           "img/home-bg-float.jpg"
 heard-musk      :           0.3
 catalog         :           true
 tags            :           - Liquid

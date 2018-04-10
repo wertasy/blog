@@ -96,9 +96,9 @@ unless | if的反义词
 We made 1 million dollars {% comment %} in losses {% endcomment %} this year.
 {% endraw %}
 ```
-### Raw | 
+### Raw | raw 转义
 
-Raw暂时禁用标签处理。这是用于生成内容，它使用相互矛盾的语法非常有用。例如：
+Raw暂时禁用标签处理。一般的文本，直接将其放到 {% raw %} {% endraw %} 中即可转义。例如：
 ```liquid
 {% assign openTag = '{%' %}
 {{ openTag }} raw %}
@@ -106,6 +106,9 @@ Raw暂时禁用标签处理。这是用于生成内容，它使用相互矛盾�
 In Handlebars, {{ this }} will be HTML-escaped, but {{{ that }}} will not. 
 {% endraw %}
 {{ openTag }} endraw %}
+
+解决办法就是将 {% 赋值给一个变量，在需要输出 {% 的时候，输出这个变量的值。
+
 ```
 ### If / Else
 
@@ -115,6 +118,9 @@ if / else语句对任何其他编程语言都应该是众所周知的。Liquid�
 {% if user %} 
 Hello {{ user.name }} 
 {% endif %}
+
+如果需要转义 {% raw %} {% endraw %} 自身，直接使用会出错。
+
 
 # Same as above 
 {% if user != null %} 
@@ -171,7 +177,7 @@ string includes 'hello'
 {% endraw %}
 ```
 
-### Case Statement
+### Case Statement | case选择
 
 如果您需要更多的条件，您可以使用case语句：
 ```liquid
@@ -199,7 +205,7 @@ hit 2 or 3
 {% endcase %}
 {% endraw %}
 ```
-### Cycle
+### Cycle | cycle 循环
 
 通常你有不同的颜色或类似的任务之间切换。 Liquid已经内置了对此类操作的支持，使用cycle标记。
 ```liquid
@@ -230,7 +236,7 @@ one two three one
 ```
 one two one two
 ```
-## For loops
+## For loops | for 循环
 
 Liquid 可以使用for遍历集合。
 ```liquid

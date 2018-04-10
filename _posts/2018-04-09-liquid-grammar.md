@@ -10,15 +10,16 @@ tags                :
     - Liquid
 ---
 
-{% raw %}
 ## Output | 输出
 
 简单输出示例：
 
 ```liquid
+{% raw %}
 Hello {{name}} 
 Hello {{user.name}}
 Hello {{ 'tobi' }}
+{% endraw %}
 ```
 
 ## Advanced output: Filters | 高级输出：过滤器
@@ -28,10 +29,12 @@ Hello {{ 'tobi' }}
 代码示例：
 
 ```
+{% raw %}
 Hello {{ 'tobi' | upcase }} 
 Hello tobi has {{ 'tobi' | size }} letters! 
 Hello {{ '*tobi*' | textilize | upcase }} 
 Hello {{ 'now' | date: "%Y %h" }}
+{% endraw %}
 ```
 
 ## Standard Filters | 标准过滤器
@@ -90,20 +93,25 @@ unless | if的反义词
 
 注释是最简单的标签，它会隐藏标记的内容。例如：
 ```
+{% raw %}
 We made 1 million dollars {% comment %} in losses {% endcomment %} this year.
+{% endraw %}
 ```
 ### Raw | 
 
 Raw暂时禁用标签处理。这是用于生成内容，它使用相互矛盾的语法非常有用。例如：
 ```
+{% raw %}
 {% raw %} 
 In Handlebars, {{ this }} will be HTML-escaped, but {{{ that }}} will not. 
+{% endraw %}
 {% endraw %}
 ```
 ### If / Else
 
 if / else语句对任何其他编程语言都应该是众所周知的。Liquid允许使用if,unless,以及可选的elsif和else,例如：
 ```
+{% raw %}
 {% if user %} 
 Hello {{ user.name }} 
 {% endif %}
@@ -160,12 +168,14 @@ array includes 2
 {% if string contains 'hello' %} 
 string includes 'hello' 
 {% endif %}
+{% endraw %}
 ```
 
 ### Case Statement
 
 如果您需要更多的条件，您可以使用case语句：
 ```
+{% raw %}
 {% case condition %} 
 {% when 1 %} 
 hit 1 
@@ -174,9 +184,11 @@ hit 2 or 3
 {% else %} 
 ... else ... 
 {% endcase %}
+{% endraw %}
 ```
 例如：
 ```
+{% raw %}
 {% case template %} 
 {% when 'label' %}   
 {{ label.title }} 
@@ -185,15 +197,18 @@ hit 2 or 3
 {% else %}
 {{page_title}} 
 {% endcase %}
+{% endraw %}
 ```
 ### Cycle
 
 通常你有不同的颜色或类似的任务之间切换。 Liquid已经内置了对此类操作的支持，使用cycle标记。
 ```
+{% raw %}
 {% cycle 'one', 'two', 'three' %} 
 {% cycle 'one', 'two', 'three' %} 
 {% cycle 'one', 'two', 'three' %} 
 {% cycle 'one', 'two', 'three' %}
+{% endraw %}
 ```
 结果为：
 ```
@@ -203,10 +218,13 @@ one two three one
 
 如果你想完全控制循环体，您可以选择指定循环体的名称。这甚至可以是一个变量。
 ```
+
+{% raw %}
 {% cycle 'group 1': 'one', 'two', 'three' %}
 {% cycle 'group 1': 'one', 'two', 'three' %} 
 {% cycle 'group 2': 'one', 'two', 'three' %} 
 {% cycle 'group 2': 'one', 'two', 'three' %}
+{% endraw %}
 ```
 得到结果为：
 ```
@@ -216,15 +234,19 @@ one two one two
 
 Liquid 可以使用for遍历集合。
 ```
+{% raw %}
 {% for item in array %}
 {{ item }}
 {% endfor %}
+{% endraw %}
 ```
 当遍历一个键值对集合时，item[0]是key的值，item[1]则是value的值。
 ```
+{% raw %}
 {% for item in hash %} 
 {{ item[0] }}: {{ item[1] }} 
 {% endfor %}
+{% endraw %}
 ```
 在每次for循环中，下面的辅助变量可用于额外的需求：
 ```
@@ -234,27 +256,33 @@ forloop.length # => 整个for循环的长度 forloop.index # => 当前迭代的�
 
 limit:int可以限制你有多少个项目获得 offset:int可以让你从第n项开始遍历。
 ```
+{% raw %}
 # array = [1,2,3,4,5,6] 
 {% for item in array limit:2 offset:2 %} 
 {{ item }} 
 {% endfor %} 
 # results in 3,4
+{% endraw %}
 ```
 
 倒序循环
 ```
+{% raw %}
 {% for item in collection reversed %} 
 	{{item}} 
 {% endfor %}
+{% endraw %}
 ```
 
 你可以通过定义一系列的数字来代替现有的集合循环。范围可以通过包括文本和变量的数字来定义：
 ```
+{% raw %}
 # if item.quantity is 4... 
 {% for i in (1..item.quantity) %} 
 {{ i }} 
 {% endfor %} 
 # results in 1,2,3,4
+{% endraw %}
 ```
  
 
@@ -262,16 +290,19 @@ limit:int可以限制你有多少个项目获得 offset:int可以让你从第n�
 
 您可以将数据存储在自己的变量，在输出或其他标记随意使用。创建一个变量最简单的方法是使用assign标签，它有一个非常简单的语法：
 ```
+{% raw %}
 {% assign name = 'freestyle' %} 
 {% for t in collections.tags %} 
 {% if t == name %} 
 Freestyle! 
 {% endif %} 
 {% endfor %}
+{% endraw %}
 ```
 
 这个标签的另一种用法是分配true / false值：
 ```
+{% raw %}
 {% assign freestyle = false %} 
 {% for t in collections.tags %} 
 {% if t == 'freestyle' %} 
@@ -281,7 +312,7 @@ Freestyle!
 {% if freestyle %} 
 Freestyle! 
 {% endif %}
+{% endraw %}
 ```
 如果你想将多个字符串合并成一个单一的字符串，并将其保存到变量中，你可以使用capture标记。这个标签“捕获”内容无论它是否已经实现，然后分配捕获的值。而不是只能捕获屏幕上已经存在的内容。
 
-{% endraw %}

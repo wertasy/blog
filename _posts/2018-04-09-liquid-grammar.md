@@ -101,11 +101,12 @@ We made 1 million dollars {% comment %} in losses {% endcomment %} this year.
 
 Raw暂时禁用标签处理。这是用于生成内容，它使用相互矛盾的语法非常有用。例如：
 ```
+{% assign openTag = '{%' %}
+{{ openTag }} raw %}
 {% raw %}
-{% raw %} 
 In Handlebars, {{ this }} will be HTML-escaped, but {{{ that }}} will not. 
 {% endraw %}
-{% endraw %}
+{{ openTag }} endraw %}
 ```
 ### If / Else
 

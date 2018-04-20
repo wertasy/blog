@@ -9,15 +9,15 @@ tags:
     - apt-get
     - Ubuntu
 ---
-备份原来的下载源
+## 备份原来的下载源
 ```shell
 sudo mv /etc/apt/sources.list /etc/apt/source.list.bak
 ```
-修改下载源
+## 修改下载源
 ```shell
 sudo vi /etc/apt/sources.list
 ```
-将内容进行如下替换：
+## 将内容进行如下替换：
 ```
 deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse

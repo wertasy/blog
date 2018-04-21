@@ -5,7 +5,7 @@ subtitle:     " \"Hello Ruby\""
 date:         2018-04-05 12:00:00
 author:       "wertasy"
 header-img:   "img/post-bg-2015.jpg"
-header-mask:  0.3
+header-mask:  0.35
 multilingual: false
 catalog:      true
 tags:

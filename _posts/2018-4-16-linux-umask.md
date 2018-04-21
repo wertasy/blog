@@ -2,7 +2,7 @@
 layout:       post
 title:        "umask 详解"
 date:         2018-4-16
-header-img:   "img/post/ubuntu-016.jpg"
+header-img:   "img/post/Castle_bastion.jpg"
 catalog:      true
 tags:
     - Linux 

@@ -2,7 +2,7 @@
 layout:       post
 title:        "apt-get 下载源更换阿里云源"
 date:         2018-4-18 11:45:06
-header-img:   "img/post/ubuntu-016.jpg"
+header-img:   "img/post/DD_33.jpg"
 catalog:      true
 tags:
     - Linux 

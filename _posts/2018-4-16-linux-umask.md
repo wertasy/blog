@@ -3,6 +3,7 @@ layout:       post
 title:        "umask 详解"
 date:         2018-4-16
 header-img:   "img/post/Castle_bastion.jpg"
+heard-mask:   0.3
 catalog:      true
 tags:
     - Linux 

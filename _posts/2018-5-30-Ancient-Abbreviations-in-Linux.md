@@ -2,7 +2,7 @@
 layout:       post
 title:        "Linux 中的古老缩略语"
 subtitle:     "Ancient Abbreviations in Linux"
-date:         2018-4-16
+date:         2018-5-30 22:09:00
 header-img:   "img/post/Castle_bastion.jpg"
 header-mask:  0.35
 catalog:      true

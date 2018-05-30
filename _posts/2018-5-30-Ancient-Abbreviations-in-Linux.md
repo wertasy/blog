@@ -2,13 +2,12 @@
 layout:       post
 title:        "Linux 中的古老缩略语"
 subtitle:     "Ancient Abbreviations in Linux"
-date:         2018-5-30 22:09:00
+date:         2018-5-30
 header-img:   "img/post/Castle_bastion.jpg"
 header-mask:  0.35
 catalog:      true
 tags:
-    - Linux 
-    - umask
+    - Linux
 ---
 # Linux 中的古老缩略语
 　　Unix已经有35年历史了。许多人认为它开始于中世纪，这个中世纪是相对于计算机技术的产生和发展来说的。在过去的时间里，Unix和它的子分支Linux收集有许多的历史和一些完全古老的语言。在这篇技巧文章中，我们将介绍一少部分古老的语言和它们的目的和作用，以及它们真正的来源。

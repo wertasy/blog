@@ -6,8 +6,8 @@ email:          wertasy@qq.com
 author:         wertasy
 description:    "关于前端与设计、黑客与画家。"
 keyword:        "王灿辉"
-url:            "https://canhui.wang"              # your host, for absolute URL
-baseurl:        "/blog"                             # for example, '/blog' if your blog hosted on 'host/blog'
+url:            "canhui.wang"              # your host, for absolute URL
+baseurl:        "/blog"                    # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 

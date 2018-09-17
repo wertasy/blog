@@ -1,31 +1,23 @@
-> 写写代码，做做设计 
-> 落叶的一生只是为了归根吗？
+> 万物皆虚，万事皆允
 
-Hey，我是王灿辉，进化程度不明，我的[博客](https://wertasy.github.io)、[微博](weibo.com/huxpro)、[知乎](https://www.zhihu.com/people/huxpro/pins/posts)、[Twitter](https://twitter.com/Huxpro/)、[Github](http://github.com/huxpro)、[Medium](https://medium.com/@Huxpro) 等地带，绝招尚在开发中。
+你好呀，我是*王灿辉*，一名大学本科在校生。
+目前就读于西安邮电大学信息管理与信息系统专业。
 
-职业是软件工程师，[Web 工会](https://medium.com/ben-and-dion/team-web-3315aa447fb2#.359a9c6cl)活跃成员。曾被招募为淘宝网 · [阿里旅行](http://alitrip.com)前端工程师、微影时代 · [微票儿](http://www.wepiao.com/?r=movie)前端基础工程团队负责人、[饿了么](https://ele.me/) · 大前端团队 · [PWA 顾问](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)。
+### 主修课程
+C/C++程序设计、JAVA程序设计、数据结构与算法、数据库系统原理、管理信息系统、系统工程、软件工程、统计学、计算机网络等。
 
-一些作品和开源软件项目，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/huxpro)、[演说.io](http://https://zhuanlan.zhihu.com/p/21280918)。 
+### 技能证书
+- 有多种编程语言开发基础，如 C/C++，JAVA，C#，Python，JavaScript等，有客户端、微信小程序开发经验；
+- 熟悉Linux环境编程，多线程，SOCKET编程等；
+- 熟悉数据库原理和常用性能优化，以及NoSQL，Queue原理、应用场景和限制；
+- CET-6，有优秀的听说读写能力，能用英语进行日常交流；
+- 熟练使用各类办公软件。
 
+### 获奖荣誉
+- 2018.08 “创青春”挑战杯 省赛 三等奖
+- 2017.03 redhat 红帽Linux挑战赛西安赛区 第三名
+- 2016.09    优秀团员
 
-##### Talks
-
-- [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI 广州 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux 北京 2017
-- 炒冷饭 · PWA 到底是个什么玩意？· Baidu HQ 北京 2017
-- [Service Worker 101][5] · GDG DevFest 北京 2016
-- [Progressive Web App，复兴序章][4] · [QCon 上海 2016](http://2016.qconshanghai.com/presentation/3111)
-- Progressive Web App 之我见 · GDG IO Redux 北京 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript 模块化七日谈][1] · 2015
-
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/
+### 联系方式
+- QQ：1154294693
+- E-mail：[wertasy@qq.com]()

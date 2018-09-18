@@ -13,26 +13,26 @@ const CACHE_NAMESPACE = 'main-'
 
 const CACHE = CACHE_NAMESPACE + 'precache-then-runtime';
 const PRECACHE_LIST = [
-  "./blog/",
-  "./blog/offline.html",
-  "./blog/js/jquery.min.js",
-  "./blog/js/bootstrap.min.js",
-  "./blog/js/hux-blog.min.js",
-  "./blog/js/snackbar.js",
-  "./blog/img/icon_wechat.png",
-  "./blog/img/avatar-hux.jpg",
-  "./blog/img/home-bg.jpg",
-  "./blog/img/404-bg.jpg",
-  "./blog/css/hux-blog.min.css",
-  "./blog/css/syntax.css",
-  "./blog/css/bootstrap.min.css"
+  "./",
+  "./offline.html",
+  "./js/jquery.min.js",
+  "./js/bootstrap.min.js",
+  "./js/hux-blog.min.js",
+  "./js/snackbar.js",
+  "./img/icon_wechat.png",
+  "./img/avatar-hux.jpg",
+  "./img/home-bg.jpg",
+  "./img/404-bg.jpg",
+  "./css/hux-blog.min.css",
+  "./css/syntax.css",
+  "./css/bootstrap.min.css"
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
   // "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"
 ]
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
-  "wertasy.coding.me/blog/",
+  "canhui.wang",
   "cdnjs.cloudflare.com"
 ]
 const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
@@ -86,7 +86,7 @@ const shouldRedirect = (req) => (isNavigationReq(req) && new URL(req.url).pathna
 // P.P.S. Always trust url.pathname instead of the whole url string.
 const getRedirectUrl = (req) => {
   url = new URL(req.url)
-  url.pathname += "/blog/"
+  url.pathname += "/"
   return url.href
 }
 

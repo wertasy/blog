@@ -40,7 +40,7 @@ const PRECACHE_LIST = [
 
   "./img/icon_wechat.png",
 
-  "./img/avatar-hux.jpg",
+  "./img/avatar-hui.jpg",
 
   "./img/home-bg.jpg",
 

@@ -1,4 +1,16 @@
-# 国庆假期计划
+---
+layout:       post
+title:        "国庆假期计划"
+subtitle:     "The plan of National Day"
+date:         2018-9-17
+header-img:   "img/post/BlackCuillin.jpg"
+header-mask:  0.35
+catalog:      true
+tags:
+    - html
+    - QQ
+    - link
+---
 ## 行程
 - Day1 夜爬华山看日出
 - Day2 回西安补觉 小寨 晚上大雁塔看音乐喷泉

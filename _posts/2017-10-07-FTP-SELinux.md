@@ -2,7 +2,7 @@
 layout:       post
 title:        "使FTP正常连接的SELinux设置"
 subtitle:     "SELinux settings that make FTP normally connected"
-date:         2018-4-19
+date:         2017-10-07
 header-img:   "img/post/LVM.jpg"
 header-mask:  0.35
 catalog:      true

@@ -19,7 +19,7 @@ SELinux是个非常强大的安全子系统。可是它在初学者心中可能�
 setenforce 0
 ```
 它的好处的不用重启计算机，需要再次开启SELinux的话，把0换成1就可以了
-## 开启与Ftp有关的SElinux策略
+## 开启与Ftp有关的SELinux策略
 ```sh
 # 查看有关ftp的SELinux策略
 getsebool -a | grep ftp

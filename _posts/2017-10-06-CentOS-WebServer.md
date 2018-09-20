@@ -2,7 +2,7 @@
 layout:       post
 title:        "关于在CentOS7上搭建Web服务器的一些总结"
 subtitle:     "Web Server on CentOS 7"
-date:         2018-4-19
+date:         2017-10-06
 header-img:   "img/post/LVM.jpg"
 header-mask:  0.35
 catalog:      true

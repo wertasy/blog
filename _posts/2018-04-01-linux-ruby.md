@@ -2,7 +2,7 @@
 layout:       post
 title:        "Ruby in Linux"
 subtitle:     " \"Hello Ruby\""
-date:         2018-04-05 12:00:00
+date:         2018-04-01
 author:       "wertasy"
 header-img:   "img/post-bg-2015.jpg"
 multilingual: false

@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "umask 详解"
-date:         2018-4-16
+date:         2018-04-16
 header-img:   "img/post/Castle_bastion.jpg"
 header-mask:  0.35
 catalog:      true

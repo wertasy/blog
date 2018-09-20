@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "网页跳转QQ聊天界面和添加好友界面"
+title:        "网页跳转QQ聊天"
 subtitle:     "Skip to QQ chat or friend adding interface"
 date:         2018-9-17
 header-img:   "img/post/BlackCuillin.jpg"

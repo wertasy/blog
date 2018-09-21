@@ -11,6 +11,7 @@ tags:
     - CentOS
     - rpm
 ---
+# shell命令
 ``` sh
 yum install epel-release
 rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm

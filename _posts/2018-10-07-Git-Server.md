@@ -35,7 +35,9 @@ git clone //服务器名/GitRemoteRepo/托管项目名
 ```sh
 git push -u origin master
 ```
+
 如果有多个项目，而且每个项目的用户和读写权限各不相同，我们可以为每一个项目创建一个专用的“共享文件夹”，独立管理每一个项目的用户和权限。
+
 ## 使用 HTTP/HTTPS 访问 Git Server
 
 ## 使用 SSH 认证和加密 Git Server

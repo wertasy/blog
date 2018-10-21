@@ -3,7 +3,7 @@ layout:       post
 title:        "架设 Git Server"
 subtitle:     "Set up Git Server"
 date:         "2018-10-07"
-header-img:   "img/post/ubuntu-016.jpg"
+header-img:   "img/post/git.gif"
 catalog:      true
 tags:
     - git

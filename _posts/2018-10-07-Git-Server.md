@@ -5,6 +5,7 @@ subtitle:     "Set up Git Server"
 date:         "2018-10-07"
 header-img:   "img/post/git.gif"
 catalog:      true
+header-mask:  0.60
 tags:
     - git
     - server

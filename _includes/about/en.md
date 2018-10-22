@@ -1,35 +1,24 @@
+> Nothing is ture, and everything is permitted.
 
+Hello, I'm Canghui Wang, an undergraduate student.  
+Currently, I am majoring in information management and information system in xi 'an university of posts and telecommunications.
 
-> Yet another man.
+### Major
+C/C++ programming, JAVA programming, data structure and algorithm, database system principle, management information system, system engineering, software engineering, statistics, computer network, etc.
 
+### Skills
+- a variety of programming language development foundation, such as C/C++, JAVA, C#, Python and JavaScript.
+- experience in developing desktop clients and WeChat small programs.
+- Familiar with Linux environment programming, multi-threading, SOCKET programming, etc.
+- Familiar with database principles and common performance optimization, as well as NoSQL, Queue principles, application scenarios and restrictions.
+- Cet-6, excellent listening, speaking, reading and writing skills, capable of daily communication in English.
+- Familiar with all kinds of office automation software.
 
-Hi, I am *@huxpro* (Huang, Xuan), a software engineer & a designer. I previously worked as Web Front-End Engineer at [Alibaba Trip](https://www.alitrip.com/); Web Front-End Infrastructure Team Lead at [Wepiao.com](https://www.crunchbase.com/organization/wepiao#/entity); And [Invited Consultant on PWA]((https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)) at [Ele.me](https://github.com/elemefe/).
+### Honor
+- 2018.09    3th prize of the 8 national university student e-commerce "three create competition" provincial competition
+- 2017.03    3th in xi 'an competition of redhat Linux challenge
+- 2016.09    Excellent league member
 
-I studied Digital Media Art and graduated from [Communication University of China](https://en.wikipedia.org/wiki/Communication_University_of_China) by 2016, and am studying Computer Science at [Rochester Institute of Technology](https://en.wikipedia.org/wiki/Rochester_Institute_of_Technology) from 2017.
-
-
-##### Talks
-
-- [Upgrading to Progressive Web Apps][9] · [JSConf China Shanghai 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI Guangzhou 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux Beijing 2017
-- PWA Rehashing · Baidu HQ Beijing 2017
-- [Service Worker 101][5] · GDG DevFest Beijing 2016
-- [Progressive Web Apps][4] · QCon Shanghai 2016
-- Progressive Web App in my POV · GDG IO Redux Beijing 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript Modularization Journey][1] · 2015
-
-
-
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/
-
-
+### Contact
+- QQ：[1154294693](http://wpa.qq.com/msgrd?v=3&uin=1154294693&site=qq&menu=yes)
+- E-mail：<wertasy@qq.com>

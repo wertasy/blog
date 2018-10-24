@@ -67,9 +67,13 @@ kramdown:
 # netease_comment: false
 
 # LiveRe settings
-livere_uid: MTAyMC80MDQ5Mi8xNzAxOQ
+# livere_uid: MTAyMC80MDQ5Mi8xNzAxOQ
 
-
+# Valine settings
+valine:
+  id: CaIqunUHRQWWz5P2013Gzlid-gzGzoHsz
+  key: GskBDyswMhI595hVTyLOQ09b
+  placeholder: '来，说点啥吧！'
 
 # Analytics settings
 # Baidu Analytics 

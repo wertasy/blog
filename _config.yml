@@ -19,8 +19,8 @@ weibo_username:      6240900530
 zhihu_username:      wang-can-hui-82
 github_username:     wertasy
 # twitter_username:    wertasy
-#facebook_username:  wertasy
-# linkedin_username:  firstname-lastname-idxxxx
+# facebook_username:   wertasy
+# linkedin_username:   firstname-lastname-idxxxx
 
 
 
@@ -73,6 +73,7 @@ kramdown:
 valine:
   id: CaIqunUHRQWWz5P2013Gzlid-gzGzoHsz
   key: GskBDyswMhI595hVTyLOQ09b
+  avator: mp
   placeholder: '来，说点啥吧！'
 
 # Analytics settings
@@ -112,7 +113,7 @@ page-mathjax: false
 # Friends
 friends: [
      {
-         title: "clj",
+         title: "Sherry Cha",
          href: "https://canhui.wang"
      }
 ]

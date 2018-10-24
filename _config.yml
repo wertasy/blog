@@ -74,7 +74,7 @@ valine:
   id: CaIqunUHRQWWz5P2013Gzlid-gzGzoHsz
   key: GskBDyswMhI595hVTyLOQ09b
   avatar: mp
-  visitor: true
+  visitor: false
   placeholder: '来，说点啥吧！'
 
 # Analytics settings

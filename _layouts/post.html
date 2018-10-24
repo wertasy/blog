@@ -56,7 +56,7 @@ layout: default
 
                 {% if site.valine %}
                 <!-- valine 评论框 start -->
-                <div id="vcomments"></div>
+                <div class="vcomments"></div>
                 <!-- valine 评论框 end -->
                 {% endif %}
 
@@ -122,14 +122,15 @@ layout: default
 
 <!-- valine start -->
 {% if site.valine  %}
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
 <script>
     new Valine({
-        el: '#vcomments',
+        el: '.vcomments',
         appId: '{{ site.valine.id }}',
         appKey: '{{ site.valine.key }}',
         avatar: '{{ site.valine.avatar }}',
+        visitor: '{{ site.valine.visitor }}',
         placeholder: '{{ site.valine.placeholder }}'
     })
 </script>

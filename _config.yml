@@ -73,7 +73,8 @@ kramdown:
 valine:
   id: CaIqunUHRQWWz5P2013Gzlid-gzGzoHsz
   key: GskBDyswMhI595hVTyLOQ09b
-  avator: mp
+  avatar: mp
+  visitor: true
   placeholder: '来，说点啥吧！'
 
 # Analytics settings

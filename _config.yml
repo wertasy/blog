@@ -64,7 +64,10 @@ kramdown:
 # disqus_username: hux
 
 # Netease settings
-netease_comment: false
+# netease_comment: false
+
+# LiveRe settings
+livere_uid: MTAyMC80MDQ5Mi8xNzAxOQ
 
 
 

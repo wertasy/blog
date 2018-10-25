@@ -45,14 +45,34 @@ layout: default
                     {% if page.next.url %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
-                            data-placement="top" title="{{page.next.title}}">
+                            data-placement="top" title="{{ page.next.title }}">
                             Next<br>
-                            <span>{{page.next.title}}</span>
+                            <span>{{ page.next.title }}</span>
                         </a>
                     </li>
                     {% endif %}
                 </ul>
                 <hr style="visibility: hidden;">
+
+                {% if site.reward %}
+                <!-- wert-reward 赞赏支持 start -->
+                <div class="wrapper">
+                    赞赏支持
+                    <div class="tooltip">
+                        <div>
+                            <img class="tip-img" src="{{ site.qrcode1-img }}" alt="{{ site.qrcode1-description }}">
+                            <p class="dsec">{{ site.qrcode1-description }}</p>
+                        </div>
+                        <div>
+                            <img class="tip-img" src="{{ site.qrcode2-img }}" alt="{{ site.qrcode2-description }}">
+                            <p class="dsec">{{ site.qrcode2-description }}</p>
+                        </div>
+                    </div>
+                </div>
+                <hr style="visibility: hidden;">
+                <!-- wert-reward 赞赏支持 end -->
+                {% endif %}
+
 
                 {% if site.valine %}
                 <!-- valine 评论框 start -->
@@ -121,7 +141,7 @@ layout: default
 {% endif %}
 
 <!-- valine start -->
-{% if site.valine  %}
+{% if site.valine %}
 <script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
 <script>
@@ -140,19 +160,19 @@ layout: default
 {% if site.livere_uid %}
 <!--  来必力City版JS代码 start -->
 <script type="text/javascript">
-    (function (d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
- 
-        if (typeof LivereTower === 'function') { return; }
- 
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
- 
-        e.parentNode.insertBefore(j, e);
-    })(document, 'script');
- </script>
- <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+        (function (d, s) {
+            var j, e = d.getElementsByTagName(s)[0];
+
+            if (typeof LivereTower === 'function') { return; }
+
+            j = d.createElement(s);
+            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+            j.async = true;
+
+            e.parentNode.insertBefore(j, e);
+        })(document, 'script');
+</script>
+<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
 <!--  来必力City版JS代码 end -->
 {% endif %}
 
@@ -224,6 +244,7 @@ layout: default
             margin-top: -0.1em;
         }
     }
+
     .v .vwrap {
         border-color: #dfdfdf;
     }

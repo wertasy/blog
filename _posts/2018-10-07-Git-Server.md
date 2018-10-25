@@ -83,6 +83,10 @@ git clone git://<运行 git daemon 主机的域名或IP>/<仓库名>/<项目名>
 出于安全考虑，git daemon 默认情况下只允许读取，也就是说，你的同伴无法执行 `git push` 来为项目锦上添花。
 因为，git daemon 没有用户验证机制，一旦开放写入，任何人都能随意修改项目。但是，你也不是完全没有办法的让你的同伴通过 git Deamon 参与到项目中来。我们，可以在启动 git daemon 的时候加上 `--enable=receive-pack` 选项。
 
+
+未完待续。。。
+
+
 ## 使用 HTTP/HTTPS 访问 git server
 
 

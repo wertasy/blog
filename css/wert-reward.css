@@ -98,6 +98,17 @@
     margin: 0 0 10px 0;
     font-size: 16px;
 }
+
+@media screen and (min-width: 700px) {
+     .wrapper .tooltip {
+         width: 600px; 
+         left: -250px;
+     }
+     .tip-img {
+         width: 200px; 
+     }
+}
+
  @media screen and (max-width: 600px) {
     .tip-img {
         width:128px;
@@ -109,7 +120,7 @@
      .wrapper .tooltip {
         left: -70px;
         width: 240px;
-     }
+}
 
     .dsec {
         margin: 0 0 5px 0;

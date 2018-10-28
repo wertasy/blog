@@ -143,7 +143,6 @@ layout: default
 <!-- valine start -->
 {% if site.valine %}
 <script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
 <script>
     new Valine({
         el: '.vcomments',
@@ -153,6 +152,18 @@ layout: default
         visitor: '{{ site.valine.visitor }}',
         placeholder: '{{ site.valine.placeholder }}'
     })
+
+        (function (d, s) {
+            var j, e = d.getElementsByTagName(s)[0];
+
+            if (typeof LivereTower === 'function') { return; }
+
+            j = d.createElement(s);
+            j.src = 'https://unpkg.com/valine/dist/Valine.min.js';
+            j.async = true;
+
+            e.parentNode.insertBefore(j, e);
+        })(document, 'script');
 </script>
 {% endif %}
 <!-- valine end -->

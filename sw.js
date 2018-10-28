@@ -23,9 +23,12 @@ const PRECACHE_LIST = [
   "./img/avatar-hui.jpg",
   "./img/home-bg.jpg",
   "./img/404-bg.jpg",
+  "./css/wert-reward.min.css",
   "./css/hux-blog.min.css",
   "./css/wert-reword.min.css",
-  "./css/bootstrap.min.css"
+  "./css/bootstrap.min.css",
+  "//unpkg.com/valine/dist/Valine.min.js",
+  "//cdn1.lncld.net/static/js/3.0.4/av-min.js"
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
   // "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"
@@ -34,6 +37,8 @@ const HOSTNAME_WHITELIST = [
   self.location.hostname,
   "canhui.wang",
   "cdnjs.cloudflare.com",
+  "unpkg.com",
+  "cdn1.lncld.net"
 ]
 const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
 

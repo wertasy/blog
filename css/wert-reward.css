@@ -121,6 +121,10 @@
         left: -70px;
         width: 240px;
      }
+   
+   .wrapper .tooltip::after {
+       left: 110px;
+   }
 
     .dsec {
         margin: 0 0 5px 0;

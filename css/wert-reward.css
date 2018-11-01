@@ -29,11 +29,7 @@
      justify-content: space-around;
 
      width: 350px;
-     left: -125px;
-     /*
-     left: -205px;
-     width: 510px;
-     */
+     left: 128px;
      margin-bottom: 15px;
      opacity: 0;
      padding: 20px;
@@ -69,6 +65,7 @@
      border-right: solid transparent 10px;
      border-top: solid #fff 10px;
      bottom: -10px;
+     left: 167px;
      content: " ";
      height: 0;
      position: absolute;
@@ -102,10 +99,13 @@
 @media screen and (min-width: 700px) {
      .wrapper .tooltip {
          width: 600px; 
-         left: -250px;
+         left: -251px;
      }
      .tip-img {
          width: 200px; 
+     }
+     .wrapper .tooltip:after {
+        left: 290px
      }
 }
 
@@ -120,7 +120,7 @@
      .wrapper .tooltip {
         left: -70px;
         width: 240px;
-}
+     }
 
     .dsec {
         margin: 0 0 5px 0;

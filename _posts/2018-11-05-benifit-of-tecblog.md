@@ -1,8 +1,8 @@
 ---
 layout:       post
-title:        "写技术博客的好处
+title:            "写技术博客的好处
 subtitle:     "Benifit of Technology Blog"
-date:         "2018-10-20"
+date:         2018-11-05
 header-img:   "img/home-bg-bookshelf.jpg"
 catalog:      true
 tags:

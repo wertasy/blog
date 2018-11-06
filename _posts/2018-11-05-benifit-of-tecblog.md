@@ -6,7 +6,7 @@ date:         "2018-10-20"
 header-img:   "img/home-bg-bookshelf.jpg"
 catalog:      true
 tags:
-    - 转载 
+    - 转载 blog
 ---
 
 前言

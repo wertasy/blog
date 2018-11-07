@@ -2,7 +2,7 @@
 layout:       post
 title:            "OpenWRT总结整理"
 subtitle:     "About OpenWrt"
-date:         2018-11-06
+date:         2018-11-07
 header-img:   "img/home-bg-bookshelf.jpg"
 catalog:      true
 tags:

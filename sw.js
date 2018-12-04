@@ -20,12 +20,11 @@ const PRECACHE_LIST = [
   "./js/hux-blog.min.js",
   "./js/snackbar.js",
   "./img/icon_wechat.png",
-  "./img/avatar-hui.jpg",
+  "./img/avatar-hui.png",
   "./img/home-bg.jpg",
   "./img/404-bg.jpg",
   "./css/wert-reward.min.css",
   "./css/hux-blog.min.css",
-  "./css/wert-reword.min.css",
   "./css/bootstrap.min.css",
   "//unpkg.com/valine/dist/Valine.min.js",
   "//cdn1.lncld.net/static/js/3.0.4/av-min.js"

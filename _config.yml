@@ -75,7 +75,7 @@ valine:
   key: GskBDyswMhI595hVTyLOQ09b
   avatar: mp
   visitor: false
-  placeholder: '来，说点啥吧！'
+  placeholder: '海内存知己，天涯若比邻！'
 
 # Analytics settings
 # Baidu Analytics 
@@ -107,7 +107,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#000000"
+chrome-tab-theme-color: "#fff"
 service-worker: true
 
 

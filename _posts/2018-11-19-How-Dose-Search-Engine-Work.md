@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "网页跳转QQ聊天"
-subtitle:     "Skip to QQ chat or friend adding interface"
+title:        "搜索引擎如何工作？"
+subtitle:     "How dose search engine work?"
 date:         2018-11-19
 header-img:   "img/post/BlackCuillin.jpg"
 header-mask:  0.35

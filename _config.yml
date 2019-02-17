@@ -74,7 +74,7 @@ valine:
   id: CaIqunUHRQWWz5P2013Gzlid-gzGzoHsz
   key: GskBDyswMhI595hVTyLOQ09b
   avatar: mp
-  visitor: false
+  visitor: true
   placeholder: '交个朋友吧！'
 
 # Analytics settings

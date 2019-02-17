@@ -61,9 +61,9 @@
 /* CSS Triangles - see Trevor's post */
 
 .wrapper .tooltip:after {
-  border-left: solid transparent 9px;
-  border-right: solid transparent 9px;
-  border-top: solid #fff 9px;
+  border-left: solid transparent 11px;
+  border-right: solid transparent 11px;
+  border-top: solid #fff 11px;
   bottom: -10px;
   left: 167px;
   content: " ";

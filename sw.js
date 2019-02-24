@@ -22,9 +22,11 @@ const PRECACHE_LIST = [
   "./img/avatar-hui.jpg",
   "./img/home-bg-roadsign.jpg",
   "./img/404-bg.jpg",
+  "./img/tip/alipay.png",
+  "./img/tip/weixin.png",
   "./css/hux-blog.min.css",
   "./css/wert-reward.min.css",
-  "./css/bootstrap.min.css"
+  "./css/bootstrap.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
   // "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"

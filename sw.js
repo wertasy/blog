@@ -13,7 +13,7 @@ const CACHE_NAMESPACE = 'main-'
 
 const CACHE = CACHE_NAMESPACE + 'precache-then-runtime';
 const PRECACHE_LIST = [
-  // "./",
+  "./",
   "./offline.html",
   "./js/jquery.min.js",
   "./js/bootstrap.min.js",
@@ -34,6 +34,7 @@ const PRECACHE_LIST = [
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
   "canhui.wang",
+  "wertasy.coding.me",
   "cdnjs.cloudflare.com"
 ]
 const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']

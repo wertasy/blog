@@ -1,7 +1,6 @@
 ---
 layout: post
-title: OpenWRT总结整理
-subtitle: About OpenWrt
+title: Linux 外接显示器分辨率调整
 date: 2019-05-17
 header-img: "img/home-bg-bookshelf.jpg"
 catalog: true

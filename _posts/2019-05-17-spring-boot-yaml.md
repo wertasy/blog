@@ -3,7 +3,6 @@ layout: post
 title: SpringBoot 常用配置
 date: 2019-05-17
 header-img:  img/home-bg-bookshelf.jpg
-header-mask:  0.35
 catalog: true
 tags: 
     - springboot

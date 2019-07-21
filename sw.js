@@ -29,13 +29,18 @@ const PRECACHE_LIST = [
   "./css/bootstrap.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
-  // "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"
+  // "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js",
+  "cdn.bootcss.com/fastclick/1.0.6/fastclick.js",
+  "//cdn.bootcss.com/font-awesome/5.10.0-11/css/fontawesome.min.css",
+  "//cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG",
+  "//cdn.bootcss.com/anchor-js/4.2.0/anchor.min.js",
 ]
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
   "canhui.wang",
   "wertasy.coding.me",
-  "cdnjs.cloudflare.com"
+  //"cdnjs.cloudflare.com"
+  "cdn.bootcss.com"
 ]
 const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
 

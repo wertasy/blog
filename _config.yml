@@ -75,7 +75,7 @@ valine:
   key: GskBDyswMhI595hVTyLOQ09b
   avatar: mp
   visitor: false
-  placeholder: '交个朋友吧！'
+  placeholder: '海内存知己，天涯若比邻。'
 
 # Analytics settings
 # Baidu Analytics 
@@ -113,7 +113,7 @@ service-worker: true
 
 
 # MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
+page-mathjax: true
 
 
 
@@ -121,6 +121,6 @@ page-mathjax: false
 friends: [
      {
          title: "Sherry Cha",
-         href: "https://canhui.wang"
+         href: "http://canhui.wang"
      }
 ]

@@ -31,7 +31,7 @@ const PRECACHE_LIST = [
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
   // "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js",
   "//cdn.bootcss.com/fastclick/1.0.6/fastclick.js",
-  "//cdn.bootcss.com/font-awesome/5.10.0-11/css/fontawesome.min.css",
+  "//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css",
   "//cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG",
   "//cdn.bootcss.com/anchor-js/4.2.0/anchor.min.js",
   "//unpkg.com/valine@latest/dist/Valine.min.js",

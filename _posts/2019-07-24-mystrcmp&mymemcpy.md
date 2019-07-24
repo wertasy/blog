@@ -14,14 +14,13 @@ tags:
 ---
 
 ### 题目
-> 不通过C语言标准库实现memcpy和strcpy函数
+> 不通过C语言标准库实现 memcpy 和 strcpy 函数
 
 ### 审题
 这样的题目并不算难，但是往往简单的题目里面暗藏玄机。稍不谨慎就会掉入陷阱，而往往自己却还全然不知，沾沾自喜。从面试官的角度来看，越简单的问题，他越希望面试者能够回答得更加全面。因此，越是简单的问题就越要小心地处理。
 
 大多数人拿到这个题目就能立刻写出这样的代码。
 ```c++
-
 void *mymemcpy(void *to, const void *from, size_t size)
 {
     assert(from && to);
@@ -68,6 +67,14 @@ char *mystrcpy(char *dst, const char *src)
 
 特别要注意目的地在源后时，应该从后往前拷贝，这种情况很容易被遗漏。
 
+还有一个点需要注意，就是 memcpy 和 strcpy 的关系。
+它们有三个区别：
+1. 复制的内容不同。strcpy 只用来复制字符串，memcpy 可以用来复制如何内容。
+2. 复制方法不同。strcpy 预先不知道需要复制的长度，以 '\0' 作为结束标志，而 memcpy 需要制定复制的长度。
+3. 用途不同。通常复制字符串使用 strcpy， 复制其他类型的数据用 memcpy。
+
+事实上我们可以利用 memcpy 和 strlen 来实现 strcpy。
+
 搞清楚了这些，代码就很好写了。
 
 ```c++
@@ -113,5 +120,4 @@ int main(int argc, char const *argv[])
     printf("%s", name);
     return 0;
 }
-
 ```

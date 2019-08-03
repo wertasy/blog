@@ -1,10 +1,10 @@
 ---
 layout:       post
 title:        不通过C语言标准库实现memcpy和strcpy函数
-subtitle:     mymemcpy & mystrcpy
+subtitle:     Implement memcpy and strcpy functions without the C standard library
 date:         2019-07-24
 header-img:   img/post/self-study-room.jpg
-header-mask:  0.35
+header-mask:  0.25
 catalog:      true
 tags:
     - 算法
@@ -14,7 +14,7 @@ tags:
 ---
 
 ### 题目
-> 不通过 C 语言标准库实现 memcpy 和 strcpy 函数
+> 不通过C语言标准库实现memcpy和strcpy函数
 
 ### 审题
 这样的题目并不算难，但是往往简单的题目里面暗藏玄机。稍不谨慎就会掉入陷阱，而往往自己却还全然不知，沾沾自喜。从面试官的角度来看，越简单的问题，他越希望面试者能够回答得更加全面。因此，越是简单的问题就越要小心地处理。
@@ -41,6 +41,7 @@ char *mystrcpy(char *dst, const char *src)
 ```
 乍一看很不错，首先判断输入合法性，然后从源地址向目的地址依次拷贝值，中间指针处理也没有瑕疵。一切都看似很完美。但是，他忽略了一个重要的问题——内存重叠。没有内存重叠则已，一旦发生内存重叠，这样的代码就会出大问题！
 
+### 深入思考
 比如说，我们在一个足够大的字符数组中，将字符串 "love cplusplus" 从其开始处向后偏移5个字符开始拷贝。
 
 ![图1 内存布局](/img/post/lovecpp0.png)
@@ -65,8 +66,9 @@ char *mystrcpy(char *dst, const char *src)
  - 目的地址在源地址前
  - 目的地址在原地址后
 
-
 特别要注意目的地在源后时，应该从后往前拷贝，这种情况很容易被遗漏。
+
+### 拓展延伸
 
 还有一个点需要注意，就是 memcpy 和 strcpy 的关系。
 它们有三个区别：
@@ -77,6 +79,8 @@ char *mystrcpy(char *dst, const char *src)
 事实上我们可以利用 memcpy 和 strlen 来实现 strcpy。
 
 搞清楚了这些，代码就很好写了。
+
+### 解题
 
 ```c++
 #include <stdio.h>

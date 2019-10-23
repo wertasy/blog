@@ -51,8 +51,8 @@ $backToTop.addEventListener('click', function () {
 
 $('.back-to-top').hide();
 
-$("div").scroll(function(){
-    var top=$('body').scrollTop()
+$(window).scroll(function(){
+    var top = $(this).scrollTop()
     if (top == 0)
       $('.back-to-top').hide();
     else

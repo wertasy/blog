@@ -50,7 +50,7 @@ $backToTop.addEventListener('click', function () {
 }, false);
 
 $(document).ready(function() {
-    $("div").scroll(function() {
+    $(window).scroll(function() {
         var top=$(this).scrollTop();
         if (top == 0)
             $('span').hide();

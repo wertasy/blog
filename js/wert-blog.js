@@ -49,12 +49,15 @@ $backToTop.addEventListener('click', function () {
     }
 }, false);
 
-$('.back-to-top').hide();
 
-$(window).scroll(function(){
-    var top = $(this).scrollTop()
-    if (top == 0)
-      $('.back-to-top').hide();
-    else
-      $('.back-to-top').show();
+var windowTop=0;//初始话可视区域距离页面顶端的距离
+$(window).scroll(function() {
+    var scrolls = $(this).scrollTop();//获取当前可视区域距离页面顶端的距离
+    if(scrolls>=windowTop){//当scrolls>windowTop时，表示页面在向下滑动
+        $('.back-to-top').hide();
+        windowTop=scrolls;
+    }else{
+        $('.back-to-top').show();
+        windowTop=scrolls;
+    }
 });

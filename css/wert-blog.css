@@ -15,7 +15,7 @@ html, body {
 
 @media screen and (max-width: 600px) { 
     .back-to-top {
-        right: 5px;
-        bottom: 5px;
+        right: 15px;
+        bottom: 15px;
     }
 }

@@ -53,8 +53,8 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var top=$(this).scrollTop();
         if (top == 0)
-            $('span').hide();
+            $('.back-to-top').hide();
         else
-            $('span').show();
+            $('.back-to-top').show();
     });
 });

@@ -48,3 +48,13 @@ $backToTop.addEventListener('click', function () {
         $header.scrollIntoView();
     }
 }, false);
+
+$('.back-to-top').hide();
+
+$("div").scroll(function(){
+    var top=$('body').scrollTop()
+    if (top == 0)
+      $('.back-to-top').hide();
+    else
+      $('.back-to-top').show();
+});

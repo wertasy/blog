@@ -140,19 +140,3 @@
 .lte8 .wrapper:hover .tooltip {
   display: block;
 }
-
-html, body {
-  scroll-behavior: smooth;
-}
-
-.back-to-top {
-  box-sizing: border-box;
-  border: 1px solid #ddd;
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-}
-
-.back-to-top:hover {
-  cursor: pointer;
-}

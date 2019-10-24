@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "fzqkbysjw";
+    src: url('../fonts/fzqkbysjw.woff') format("woff"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
 html, body {
     scroll-behavior: smooth;
 }
@@ -19,4 +26,13 @@ html, body {
         right: 15px;
         bottom: 15px;
     }
+}
+
+.intro-header .post-heading h1 {
+    font-family: -webkit-pictograph, fzqkbysjw;
+    font-weight: normal;
+}
+.intro-header .post-heading .subheading {
+    font-family: -webkit-pictograph, fzqkbysjw;
+    font-size: 30px;
 }

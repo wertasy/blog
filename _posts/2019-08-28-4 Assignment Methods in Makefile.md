@@ -3,7 +3,7 @@ layout:       post
 title:        makefile中的4种赋值方式
 subtitle:     4 Assignment Methods in Makefile
 date:         2019-07-24
-header-img:   img/post/self-study-room.jpg
+header-img:   img/post/caffee.jpg
 header-mask:  0.25
 catalog:      true
 tags:

@@ -2,8 +2,6 @@
 layout: post
 title: 岁月英雄
 subtitle: 关于moba类游戏的畅想
-header-img: img/post/caffee.jpg
-header-mask: 0.5
 tag:
     - 奇思妙想
 ---

@@ -68,15 +68,15 @@ kramdown:
 # netease_comment: false
 
 # LiveRe settings
-# livere_uid: MTAyMC80MDQ5Mi8xNzAxOQ
+livere_uid: MTAyMC80MDQ5Mi8xNzAxOQ
 
 # Valine settings
-valine:
-  id: CaIqunUHRQWWz5P2013Gzlid-gzGzoHsz
-  key: GskBDyswMhI595hVTyLOQ09b
-  avatar: mp
-  visitor: false
-  placeholder: '海内存知己，天涯若比邻。'
+# valine:
+#   id: CaIqunUHRQWWz5P2013Gzlid-gzGzoHsz
+#   key: GskBDyswMhI595hVTyLOQ09b
+#   avatar: mp
+#   visitor: false
+#   placeholder: '海内存知己，天涯若比邻。'
 
 # Analytics settings
 # Baidu Analytics 
@@ -115,8 +115,6 @@ service-worker: true
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
-
-
 
 # Friends
 friends: [

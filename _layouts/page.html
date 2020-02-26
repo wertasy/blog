@@ -72,8 +72,9 @@ layout: default
       }
     },
     tex2jax: {
-      inlineMath: [ ['$','$'] ],
-      displayMath: [ ['$$','$$'] ],
+      inlineMath: [["$", "$"], ["\\(", "\\)"]],
+      displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+      skipTags: ["script", "noscript", "style", "textarea", "pre", "code", "a"],
       processEscapes: true,
     }
   });

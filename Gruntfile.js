@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
     // Project configuration.
     grunt.initConfig({
@@ -17,21 +17,19 @@ module.exports = function(grunt) {
                 files: {
                     "css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less"
                 }
-            },
-            minified: {
-                options: {
-                    paths: ["css"],
-                    cleancss: true
-                },
+            }
+        },
+        cssmin: {
+            target: {
                 files: {
-                    "css/<%= pkg.name %>.min.css": "less/<%= pkg.name %>.less"
+                    "css/<%= pkg.name %>.min.css": "css/<%= pkg.name %>.css"
                 }
             }
         },
-        banner: '/*!\n' +
-            ' * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
-            ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
-            ' */\n',
+        banner: "/*!\n\
+ * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n\
+ * Copyright <%= grunt.template.today('yyyy') %> <%= pkg.author %>\n\
+ */\n",
         usebanner: {
             dist: {
                 options: {
@@ -53,7 +51,7 @@ module.exports = function(grunt) {
             },
             less: {
                 files: ['less/*.less'],
-                tasks: ['less'],
+                tasks: ['less', 'cssmin'],
                 options: {
                     spawn: false,
                 }
@@ -64,10 +62,11 @@ module.exports = function(grunt) {
     // Load the plugins.
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
+    grunt.registerTask('default', ['uglify', 'less', 'cssmin', 'usebanner']);
 
 };

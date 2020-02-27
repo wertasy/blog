@@ -96,8 +96,8 @@ sidebar-avatar: /img/avatar-hui.png      # use absolute URL, seeing it's used in
 
 # Wert Reward settings
 reward: true
-qrcode1-img: /img/tip/weixin.png
-qrcode1-description: 微信支付
+qrcode1-img: /img/tip/weixin.jpg
+qrcode1-description: 微信赞赏
 qrcode2-img: /img/tip/alipay.png
 qrcode2-description: 支付宝
 

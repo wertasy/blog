@@ -11,11 +11,12 @@
     "bugs": "https://github.com/wertasy/blog/issues",
     "devDependencies": {
         "grunt": "~1.0.4",
+        "grunt-contrib-uglify": "~4.0.1",
         "grunt-contrib-less": "~2.0.0",
         "grunt-contrib-cssmin": "~3.0.0",
         "grunt-contrib-watch": "~1.1.0",
         "grunt-banner": "~0.6.0",
-        "grunt-contrib-uglify": "~4.0.1"
+        "grunt-contrib-imagemin": "3.1.0"
     },
     "scripts": {
         "jekyll": "jekyll serve -w --port=80",

@@ -41,6 +41,19 @@ module.exports = function (grunt) {
                 }
             }
         },
+        imagemin: {
+            options: {
+                optimizationLevel: 5
+            },
+            dist: {
+                files: [{
+                    expand: true,
+                    cwd: '_image/',
+                    src: ['**/*.{png,jpg,jpeg,gif}'],
+                    dest: 'img/'
+                }]
+            }
+        },
         watch: {
             scripts: {
                 files: ['js/<%= pkg.name %>.js'],
@@ -65,8 +78,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify', 'less', 'cssmin', 'usebanner']);
+    grunt.registerTask('default', ['uglify', 'less', 'cssmin', 'usebanner', 'imagemin']);
 
 };

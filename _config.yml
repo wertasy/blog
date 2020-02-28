@@ -4,9 +4,9 @@ SEOTitle:       王灿辉的博客 | WERTASY
 header-img:     img/post/caffee.jpg
 header-mask:    0.25
 email:          wertasy@qq.com
-author:         wertasy
-description:    "落叶的一生只是为了归根吗?"
-keyword:        "王灿辉"
+author:         王灿辉
+description:    如梦幻泡影，如露亦如电。
+keyword:        王灿辉
 url:            "http://canhui.wang"              # your host, for absolute URL
 baseurl:        ""                                # for example, '/blog' if your blog hosted on 'host/blog'
 

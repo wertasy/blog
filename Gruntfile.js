@@ -14,22 +14,23 @@ module.exports = function (grunt) {
                 options: {
                     paths: ["css"]
                 },
-                files: {
-                    "css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less"
-                }
+                files: [
+                    { "css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less" },
+                    { "css/hux-blog.css": "less/hux-blog.less" }
+                ]
             }
         },
         cssmin: {
             target: {
-                files: {
-                    "css/<%= pkg.name %>.min.css": "css/<%= pkg.name %>.css"
-                }
+                files: [
+                    { "css/<%= pkg.name %>.min.css": "css/<%= pkg.name %>.css" },
+                    { "css/hux-blog.min.css": "css/hux-blog.css" }
+                ]
             }
         },
-        banner: "/*!\n\
- * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n\
- * Copyright <%= grunt.template.today('yyyy') %> <%= pkg.author %>\n\
- */\n",
+        banner: "/*!\n * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n"
+            + " * Copyright <%= grunt.template.today('yyyy') %> <%= pkg.author %>\n"
+            + " */",
         usebanner: {
             dist: {
                 options: {
@@ -37,7 +38,14 @@ module.exports = function (grunt) {
                     banner: '<%= banner %>'
                 },
                 files: {
-                    src: ['css/<%= pkg.name %>.css', 'css/<%= pkg.name %>.min.css', 'js/<%= pkg.name %>.min.js']
+                    src: [
+                        'css/<%= pkg.name %>.css',
+                        'css/<%= pkg.name %>.min.css',
+                        'js/<%= pkg.name %>.js',
+                        'js/<%= pkg.name %>.min.js',
+                        'css/hux-blog.css',
+                        'css/hux-blog.min.css'
+                    ]
                 }
             }
         },
@@ -55,16 +63,16 @@ module.exports = function (grunt) {
             }
         },
         watch: {
-            scripts: {
+            js: {
                 files: ['js/<%= pkg.name %>.js'],
                 tasks: ['uglify'],
                 options: {
                     spawn: false,
                 },
             },
-            less: {
+            css: {
                 files: ['less/*.less'],
-                tasks: ['less', 'cssmin'],
+                tasks: ['less', 'cssmin', 'usebanner'],
                 options: {
                     spawn: false,
                 }
@@ -81,6 +89,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify', 'less', 'cssmin', 'usebanner', 'imagemin']);
+    grunt.registerTask('default', ['uglify', 'less', 'cssmin', 'usebanner']);
 
 };

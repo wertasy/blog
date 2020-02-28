@@ -2,25 +2,32 @@
  * Wertasy's Blog v0.8.1 (http://canhui.wang)
  * Copyright 2020 Wertasy <wertasy@qq.com>
  */
-
 html,
 body {
   scroll-behavior: smooth;
 }
 .back-to-top {
+  border-radius: 50%;
+  background-color: #0085A1;
+  box-shadow: 0 4px 6px #0085A1;
   box-sizing: border-box;
   position: fixed;
   right: 40px;
   bottom: 40px;
   display: none;
+  height: 53px;
+  width: 53px;
 }
 .back-to-top:hover {
   cursor: pointer;
 }
 @media (max-width: 600px) {
   .back-to-top {
-    right: 15px;
-    bottom: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 0;
   }
 }
 .appreciate-button {
@@ -63,7 +70,7 @@ body {
   margin-left: -300px;
   width: 600px;
   bottom: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 15px 5px;
   border-radius: 4px;
   opacity: 0;
   padding: 20px;
@@ -127,4 +134,25 @@ body {
 .qrcode-text {
   margin-bottom: 10px;
   font-size: 16px;
+}
+.post-container p {
+  text-indent: 2em;
+}
+.post-container ul,
+.post-container ol {
+  padding-left: 3.5em;
+}
+.post-container ul ul,
+.post-container ol ul {
+  padding-left: 2em;
+}
+.post-preview .tags a {
+  color: #bfbfbf;
+  font-size: 14px;
+  border-color: #bfbfbf;
+}
+.post-preview .tags a:hover,
+.post-preview .tags a:active {
+  color: #0085A1;
+  border-color: #0085A1;
 }

@@ -1,7 +1,7 @@
 ---
 layout: page
 description: "一生想做浪漫极客"
-header-mask: 0.35
+header-mask: 0.32
 ---
 
 {% for post in paginator.posts %}
@@ -24,8 +24,14 @@ header-mask: 0.35
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date }}
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on {{ post.date | date: "%Y-%m-%d" }}
     </p>
+
+    <div class="tags">
+        {% for tag in post.tags %}
+        <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
+        {% endfor %}
+    </div>
 </div>
 <hr>
 {% endfor %}

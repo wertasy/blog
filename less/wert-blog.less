@@ -1,3 +1,5 @@
+@import "variables";
+
 @gap-size: 15px;
 @tooltip-width: 600px;
 
@@ -7,19 +9,29 @@ body {
 }
 
 .back-to-top {
+    border-radius: 50%;
+    background-color: @brand-primary;
+    box-shadow: 0 4px 6px @brand-primary;
     box-sizing: border-box;
     position: fixed;
     right: 40px;
     bottom: 40px;
     display: none;
+    height: 53px;
+    width: 53px;
 
     &:hover {
         cursor: pointer;
     }
 
     @media (max-width: 600px) {
-        right: 15px;
-        bottom: 15px;
+        // right: 15px;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-bottom: 0;
+        // bottom: 15px;
     }
 }
 
@@ -64,12 +76,14 @@ body {
         left: 50%; // absolute居中
         margin-left: -@tooltip-width / 2; //width的一半
         width: @tooltip-width;
+
         @media (max-width: 600px) {
             margin-left: -@tooltip-width / 4;
             width: @tooltip-width / 2;
         }
+
         bottom: 100%;
-        margin-bottom: @gap-size + 5px;
+        margin-bottom: @gap-size +5px;
         border-radius: 4px;
         opacity: 0;
         padding: 20px;
@@ -95,7 +109,7 @@ body {
         &:before {
             content: "";
             bottom: -@gap-size - 5px;
-            height: @gap-size + 5px; 
+            height: @gap-size + 5px;
             display: block;
             left: 0;
             width: 100%;
@@ -133,4 +147,32 @@ body {
 .qrcode-text {
     margin-bottom: 10px;
     font-size: 16px;
+}
+
+.post-container {
+    p {
+        text-indent: 2em;
+    }
+    ul, ol {
+        padding-left: 3.5em;
+        ul {
+            padding-left: 2em;
+        }
+    }
+}
+
+.post-preview {
+    .tags {
+        a {
+            color: @gray-l;
+            font-size: 14px;
+            border-color: @gray-l;
+
+            &:hover,
+            &:active {
+                color: @brand-primary;
+                border-color: @brand-primary;
+            }
+        }
+    }
 }

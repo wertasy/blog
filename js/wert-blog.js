@@ -1,3 +1,343 @@
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+/*!
+ * Wertasy's Blog v0.8.1 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
 /**
 * 缓冲函数
 * @param {Number} position 当前滚动位置

@@ -9,18 +9,19 @@ body {
 }
 
 .back-to-top {
+    display: none;
     border-radius: 50%;
     background-color: black;
-    box-shadow: 0 4px 6px black;
+    box-shadow: 0 6px 8px black;
     text-align: center;
     position: fixed;
-    right: 40px;
-    bottom: 40px;
-    display: none;
+    right: 80px;
+    bottom: 60px;
     height: 50px;
     width: 50px;
 
     i {
+        font-size: x-large;
         line-height: 48px;
     }
 
@@ -28,14 +29,13 @@ body {
         cursor: pointer;
     }
 
-    @media (max-width: 600px) {
-        // right: 15px;
+    @media (max-width: 768px) {
         top: 0;
-        left: 0;
         right: 0;
+        bottom: 80px;
+        left: 0;
         margin: auto;
         margin-bottom: 0;
-        // bottom: 15px;
     }
 }
 
@@ -81,7 +81,7 @@ body {
         margin-left: -@tooltip-width / 2; //width的一半
         width: @tooltip-width;
 
-        @media (max-width: 600px) {
+        @media (max-width: 768px) {
             margin-left: -@tooltip-width / 4;
             width: @tooltip-width / 2;
         }

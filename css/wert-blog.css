@@ -2,33 +2,36 @@
  * Wertasy's Blog v0.9.0 (http://canhui.wang)
  * Copyright 2020 Wertasy <wertasy@qq.com>
  */
+
 html,
 body {
   scroll-behavior: smooth;
 }
 .back-to-top {
+  display: none;
   border-radius: 50%;
   background-color: black;
-  box-shadow: 0 4px 6px black;
+  box-shadow: 0 6px 8px black;
   text-align: center;
   position: fixed;
-  right: 40px;
-  bottom: 40px;
-  display: none;
+  right: 80px;
+  bottom: 60px;
   height: 50px;
   width: 50px;
 }
 .back-to-top i {
+  font-size: x-large;
   line-height: 48px;
 }
 .back-to-top:hover {
   cursor: pointer;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .back-to-top {
     top: 0;
-    left: 0;
     right: 0;
+    bottom: 80px;
+    left: 0;
     margin: auto;
     margin-bottom: 0;
   }
@@ -103,7 +106,7 @@ body {
          * 如果设置了其他的也是黑色则会显示为一个黑色的四边形。
          */
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .appreciate-button .tooltip {
     margin-left: -150px;
     width: 300px;

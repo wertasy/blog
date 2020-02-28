@@ -2,6 +2,91 @@
  * Wertasy's Blog v0.9.0 (http://canhui.wang)
  * Copyright 2020 Wertasy <wertasy@qq.com>
  */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.0 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
 /*!
  * Wertasy's Blog v0.9.0 (http://canhui.wang)
  * Copyright 2020 Wertasy <wertasy@qq.com>
@@ -501,12 +586,15 @@ $backToTop.addEventListener('click', function () {
     }
 }, false);
 
-$(document).ready(function() {
-    $(window).scroll(function() {
-        var top = $(this).scrollTop();
-        if (top < 500)
-            $('.back-to-top').hide();
-        else
+$(document).ready(function () {
+    var prev = 0;
+    $(window).scroll(function () {
+        var curr = $(this).scrollTop();
+        if (curr > 460 && (prev > curr || document.body.clientWidth > 768)) {
             $('.back-to-top').show();
+        } else {
+            $('.back-to-top').hide();
+        }
+        prev = curr;
     });
 });

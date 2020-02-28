@@ -10,15 +10,19 @@ body {
 
 .back-to-top {
     border-radius: 50%;
-    background-color: @brand-primary;
-    box-shadow: 0 4px 6px @brand-primary;
-    box-sizing: border-box;
+    background-color: black;
+    box-shadow: 0 4px 6px black;
+    text-align: center;
     position: fixed;
     right: 40px;
     bottom: 40px;
     display: none;
-    height: 53px;
-    width: 53px;
+    height: 50px;
+    width: 50px;
+
+    i {
+        line-height: 48px;
+    }
 
     &:hover {
         cursor: pointer;
@@ -153,8 +157,11 @@ body {
     p {
         text-indent: 2em;
     }
-    ul, ol {
+
+    ul,
+    ol {
         padding-left: 3.5em;
+
         ul {
             padding-left: 2em;
         }

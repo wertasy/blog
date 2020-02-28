@@ -3,11 +3,6 @@
  * Copyright 2020 Wertasy <wertasy@qq.com>
  */
 
-/*!
- * Wertasy's Blog v0.9.1 (http://canhui.wang)
- * Copyright 2020 Wertasy <wertasy@qq.com>
- */
-
 html,
 body {
   scroll-behavior: smooth;
@@ -15,8 +10,8 @@ body {
 .back-to-top {
   display: none;
   border-radius: 50%;
-  background-color: black;
-  box-shadow: 0 7px 8px black;
+  background-color: #404040;
+  box-shadow: 0 7px 8px #404040;
   text-align: center;
   position: fixed;
   right: 80px;
@@ -26,15 +21,15 @@ body {
 }
 .back-to-top i {
   font-size: x-large;
-  line-height: 50px;
+  line-height: 48px;
 }
 .back-to-top:hover {
   cursor: pointer;
 }
 @media (max-width: 768px) {
   .back-to-top {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     top: 0;
     right: 0;
     bottom: 80px;
@@ -44,7 +39,7 @@ body {
   }
   .back-to-top i {
     font-size: xx-large;
-    line-height: 70px;
+    line-height: 60px;
   }
 }
 .appreciate-button {

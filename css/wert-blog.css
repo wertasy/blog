@@ -11,7 +11,7 @@ body {
   display: none;
   border-radius: 50%;
   background-color: #404040;
-  box-shadow: 0 7px 8px #404040aa;
+  box-shadow: 0 8px 8px #40404088;
   text-align: center;
   position: fixed;
   right: 80px;
@@ -59,10 +59,10 @@ body {
   -webkit-font-smoothing: antialiased;
   /* webkit text rendering fix */
 }
-.appreciate-button:hover {
+.appreciate-button.active {
   background: #ec6149;
 }
-.appreciate-button:hover .tooltip {
+.appreciate-button.active .appreciate-popup {
   opacity: 1;
   pointer-events: auto;
   -webkit-transform: translateY(0px);
@@ -71,7 +71,8 @@ body {
   -o-transform: translateY(0px);
   transform: translateY(0px);
 }
-.appreciate-button .tooltip {
+.appreciate-button .appreciate-popup {
+  position: absolute;
   background: #fff;
   color: #555;
   display: -webkit-flex;
@@ -103,7 +104,7 @@ body {
   -ms-box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
   -o-box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
-  /* This bridges the gap so you can mouse into the tooltip without it disappearing */
+  /* This bridges the gap so you can mouse into the appreciate-popup without it disappearing */
   /*
          * border-width 属性指定了箭头的大小。如果你修改它，也要修改 margin-left 值。
          * 这样箭头在能居中显示。
@@ -113,12 +114,12 @@ body {
          */
 }
 @media (max-width: 768px) {
-  .appreciate-button .tooltip {
+  .appreciate-button .appreciate-popup {
     margin-left: -150px;
     width: 300px;
   }
 }
-.appreciate-button .tooltip:before {
+.appreciate-button .appreciate-popup:before {
   content: "";
   bottom: -20px;
   height: 20px;
@@ -127,7 +128,7 @@ body {
   width: 100%;
   position: absolute;
 }
-.appreciate-button .tooltip:after {
+.appreciate-button .appreciate-popup:after {
   border-left: solid transparent 16px;
   border-right: solid transparent 16px;
   border-top: solid #ffffff 16px;

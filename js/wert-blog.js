@@ -3,16 +3,6 @@
  * Copyright 2020 Wertasy <wertasy@qq.com>
  */
 
-/*!
- * Wertasy's Blog v0.9.1 (http://canhui.wang)
- * Copyright 2020 Wertasy <wertasy@qq.com>
- */
-
-/*!
- * Wertasy's Blog v0.9.1 (http://canhui.wang)
- * Copyright 2020 Wertasy <wertasy@qq.com>
- */
-
 /**
 * 缓冲函数
 * @param {Number} position 当前滚动位置
@@ -64,15 +54,38 @@ $backToTop.addEventListener('click', function () {
     }
 }, false);
 
-$(document).ready(function () {
-    var prev = 0;
-    $(window).scroll(function () {
-        var curr = $(this).scrollTop();
-        if (curr > 460 && (prev > curr || document.body.clientWidth > 768)) {
-            $('.back-to-top').fadeIn("fast");
-        } else {
-            $('.back-to-top').fadeOut("fast");
-        }
-        prev = curr;
-    });
+var prev = 0;
+$(window).scroll(function () {
+    var curr = $(this).scrollTop();
+    if (curr > 460 && (prev > curr && !$(".appreciate-button").hasClass("active") || document.body.clientWidth > 768)) {
+        $('.back-to-top').fadeIn("fast");
+    } else {
+        $('.back-to-top').fadeOut("fast");
+    }
+    prev = curr;
+});
+
+
+
+$(".appreciate-button").click(function (e) {
+    console.log(".appreciate-button clicked");
+
+    $(this).addClass("active");
+    if (document.body.clientWidth < 768) {
+        $('.back-to-top').fadeOut("fast");
+    }
+    $(".appreciate-popup").focus();
+    $(".appreciate-popup").animatescroll({ scrollSpeed: 250, easing: 'easeInQuad', padding: Math.abs(window.screen.availHeight - $(this).height()) / 4 });
+});
+
+$(".appreciate-popup").click(function (e) {
+    e.stopPropagation();
+});
+
+$(".qrcode-img").click(function (e) {
+    $(this).animatescroll({ scrollSpeed: 250, easing: 'easeInQuad', padding: Math.abs(window.screen.availHeight - $(this).height()) / 4 })
+});
+
+$(".appreciate-popup").blur(function () {
+    $(".appreciate-button").removeClass("active");
 });

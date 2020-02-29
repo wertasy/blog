@@ -45,6 +45,79 @@ body {
     }
 }
 
+.popups {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    background: #fff;
+    color: #555;
+
+    position: absolute;
+    bottom: 100%;
+    left: 50%; // absolute居中
+    margin-left: -@appreciate-popup-width / 2; //width的一半
+    width: @appreciate-popup-width;
+
+    margin-bottom: @gap-size + 5px;
+    border-radius: 4px;
+
+    pointer-events: none;
+
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+    -webkit-box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
+    -ms-box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
+    -o-box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
+
+    /* This bridges the gap so you can mouse into the appreciate-popup without it disappearing */
+    &:before {
+        content: "";
+        bottom: -@gap-size - 5px;
+        height: @gap-size + 5px;
+        display: block;
+        left: 0;
+        width: 100%;
+        position: absolute;
+    }
+
+    /*
+     * border-width 属性指定了箭头的大小。如果你修改它，也要修改 margin-left 值。
+     * 这样箭头在能居中显示。
+     * border-color 用于将内容转换为箭头。
+     * 设置顶部边框为黑色，其他是透明的。
+     * 如果设置了其他的也是黑色则会显示为一个黑色的四边形。
+     */
+    &:after {
+        border-left: solid transparent @gap-size + 1;
+        border-right: solid transparent @gap-size + 1;
+        border-top: solid #ffffff @gap-size + 1;
+        margin-left: -@gap-size;
+        position: absolute;
+        bottom: -@gap-size;
+        content: "";
+        width: 0;
+        height: 0;
+        left: 50%;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
 .appreciate-button {
     text-transform: uppercase;
     background-color: #ea6f5a;
@@ -77,89 +150,61 @@ body {
     }
 
     .appreciate-popup {
-        position: absolute;
-        background: #fff;
-        color: #555;
-        display: -webkit-flex;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        left: 50%; // absolute居中
-        margin-left: -@appreciate-popup-width / 2; //width的一半
-        width: @appreciate-popup-width;
+        padding: 20px;
+        padding-bottom: 30px;
 
         @media (max-width: 768px) {
             margin-left: -@appreciate-popup-width / 4;
             width: @appreciate-popup-width / 2;
         }
 
-        bottom: 100%;
-        border-radius: 4px;
-        margin-bottom: @gap-size + 5px;
-        opacity: 0;
-        padding: 20px;
-        padding-top: 30px;
-        pointer-events: none;
-        -webkit-transform: translateY(10px);
-        -moz-transform: translateY(10px);
-        -ms-transform: translateY(10px);
-        -o-transform: translateY(10px);
-        transform: translateY(10px);
-        -webkit-transition: all .25s ease-out;
-        -moz-transition: all .25s ease-out;
-        -ms-transition: all .25s ease-out;
-        -o-transition: all .25s ease-out;
-        transition: all .25s ease-out;
-        -webkit-box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
-        -moz-box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
-        -ms-box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
-        -o-box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
-        box-shadow: 0 0 60px rgba(0, 0, 0, 0.28);
+        .popups();
 
-        /* This bridges the gap so you can mouse into the appreciate-popup without it disappearing */
-        &:before {
-            content: "";
-            bottom: -@gap-size - 5px;
-            height: @gap-size + 5px;
-            display: block;
-            left: 0;
-            width: 100%;
-            position: absolute;
-        }
-
-        /*
-         * border-width 属性指定了箭头的大小。如果你修改它，也要修改 margin-left 值。
-         * 这样箭头在能居中显示。
-         * border-color 用于将内容转换为箭头。
-         * 设置顶部边框为黑色，其他是透明的。
-         * 如果设置了其他的也是黑色则会显示为一个黑色的四边形。
-         */
-        &:after {
-            border-left: solid transparent @gap-size + 1;
-            border-right: solid transparent @gap-size + 1;
-            border-top: solid #ffffff @gap-size + 1;
-            margin-left: -@gap-size;
-            position: absolute;
-            bottom: -@gap-size;
-            content: "";
-            width: 0;
-            height: 0;
-            left: 50%;
-        }
-
-        &:focus {
-            outline: none;
+        .qrcode-img {
+            width: 200px;
+            height: 200px;
         }
     }
 }
 
+.weixin-qrcode {
+    position: relative;
+    display: inline-block;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+
+    &:hover {
+        .weixin-popups {
+            opacity: 1;
+            pointer-events: auto; // 指针移走appreciate-popup不会立即消失
+            -webkit-transform: translateY(0px);
+            -moz-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+            -o-transform: translateY(0px);
+            transform: translateY(0px);
+        }
+    }
+
+    .weixin-popups {
+        .popups();
+        bottom: 100%;
+        left: 50%;
+        width: 220px;
+        height: 220px;
+        margin-left: -110px;
+        padding: 30px;
+    }
+}
+
 .qrcode-img {
-    width: 200px;
-    height: 200px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .qrcode-text {
-    margin-bottom: 10px;
+    margin-top: 10px;
     font-size: 16px;
 }
 

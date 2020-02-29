@@ -1,4 +1,14 @@
 /*!
+ * Wertasy's Blog v0.9.4 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
+ * Wertasy's Blog v0.9.4 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
+/*!
  * Wertasy's Blog v0.9.1 (http://canhui.wang)
  * Copyright 2020 Wertasy <wertasy@qq.com>
  */
@@ -65,25 +75,25 @@ $(window).scroll(function () {
     prev = curr;
 });
 
-
-
 $(".appreciate-button").click(function (e) {
-    console.log(".appreciate-button clicked");
-
     $(this).addClass("active");
     if (document.body.clientWidth < 768) {
         $('.back-to-top').fadeOut("fast");
     }
+    var pos = Math.abs(window.screen.availHeight - $(".appreciate-popup").height()) / 4;
+    
     $(".appreciate-popup").focus();
-    $(".appreciate-popup").animatescroll({ scrollSpeed: 250, easing: 'easeInQuad', padding: Math.abs(window.screen.availHeight - $(this).height()) / 4 });
+    $(".appreciate-popup div:first").animatescroll({ scrollSpeed: 250, easing: 'easeInQuad', padding: pos });
 });
 
 $(".appreciate-popup").click(function (e) {
     e.stopPropagation();
 });
 
-$(".qrcode-img").click(function (e) {
-    $(this).animatescroll({ scrollSpeed: 250, easing: 'easeInQuad', padding: Math.abs(window.screen.availHeight - $(this).height()) / 4 })
+$(".appreciate-popup div").click(function (e) {
+    var pos = Math.abs(window.screen.availHeight - $(".appreciate-popup").height()) / 4;
+    
+    $(this).animatescroll({ scrollSpeed: 250, easing: 'easeInQuad', padding: pos })
 });
 
 $(".appreciate-popup").blur(function () {

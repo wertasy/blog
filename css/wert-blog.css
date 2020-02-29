@@ -140,6 +140,9 @@ body {
   height: 0;
   left: 50%;
 }
+.appreciate-button .appreciate-popup:focus {
+  outline: none;
+}
 .qrcode-img {
   width: 200px;
   height: 200px;

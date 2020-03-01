@@ -19,7 +19,7 @@ RSS: false
 weibo_username:      6240900530
 zhihu_username:      wang-can-hui-82
 github_username:     wertasy
-weixin_qrcode:      /img/tip/weixin.png
+weixin_qrcode:       /img/tip/weixin.png
 # twitter_username:    wertasy
 # facebook_username:   wertasy
 # linkedin_username:   firstname-lastname-idxxxx
@@ -114,7 +114,14 @@ chrome-tab-theme-color: "#181818"
 service-worker: true
 
 # Aplayer settings
-aplayer: true
+# The parameters listed below with the format of key="value" will be passed to Aplayer via Meting-JS
+aplayer:
+  - id="3778678"
+  - server="netease"
+  - type="playlist"
+  - order="random"
+  - fixed=true
+  - list-folded=false
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false

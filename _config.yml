@@ -113,7 +113,8 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 chrome-tab-theme-color: "#181818"
 service-worker: true
 
-
+# Aplayer settings
+aplayer: true
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false

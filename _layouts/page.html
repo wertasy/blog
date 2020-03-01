@@ -20,6 +20,11 @@ layout: default
                 col-md-10 col-md-offset-1
                 sidebar-container">
 
+                {% if site.aplayer %}
+                <!-- Aplayer -->
+                {% include aplayer.html %}
+                {% endif %}
+                
                 <!-- Featured Tags -->
                 {% include featured-tags.html %}
 

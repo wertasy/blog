@@ -28,6 +28,11 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ '/js/hux-blog.min.js' | prepend: site.baseurl }}"></script>
 
+{% if site.aplayer %}
+<!-- Aplayer -->
+{% include aplayer.html %}
+{% endif %}
+
 <!-- Service Worker -->
 {% if site.service-worker %}
 <script src="{{ '/js/snackbar.js' | prepend: site.baseurl }}"></script>

@@ -29,6 +29,7 @@ body {
     right: 0;
     bottom: 80px;
     margin: auto;
+    margin-bottom: 0;
   }
   .back-to-top i {
     font-size: xx-large;

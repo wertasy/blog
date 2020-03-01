@@ -35,7 +35,8 @@ body {
     line-height: 60px;
   }
 }
-:focus {
+.popups:focus,
+a:focus {
   outline: none;
 }
 .popups-hover:hover > .popups,

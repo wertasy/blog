@@ -45,11 +45,13 @@ body {
     }
 }
 
-:focus {
+.popups:focus,
+a:focus {
     outline: none;
 }
 
-.popups-hover:hover, .active {
+.popups-hover:hover,
+.active {
     >.popups {
         opacity: 1;
         pointer-events: auto; // 指针移走popups不会立即消失

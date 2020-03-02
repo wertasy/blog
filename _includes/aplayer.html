@@ -1,4 +1,9 @@
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-<meting-js {{ site.aplayer | join: ' ' }}>
-</meting-js>
+
+<script>
+    var meting = document.body.clientWidth > 768 ?
+        '<meting-js {{ site.aplayer | join: " " }} fixed=true></meting-js>' :
+        '<meting-js list-folded=true {{ site.aplayer | join: " " }}></meting-js>';
+    $(".post-container").prepend($("<div style='margin-top: 30px;'>").html(meting));
+</script>

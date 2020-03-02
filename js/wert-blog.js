@@ -1,7 +1,8 @@
 /*!
- * Wertasy's Blog v0.9.1 (http://canhui.wang)
+ * Wertasy's Blog v0.9.5 (http://canhui.wang)
  * Copyright 2020 Wertasy <wertasy@qq.com>
  */
+
 
 $(document).ready(function () {
     /**
@@ -101,19 +102,19 @@ $(window).scroll(function () {
         $('.back-to-top').fadeOut("fast");
     }
 
-    var ap = $('meting-js')[0].aplayer;
-    if (ap) {
-        if (prev > curr) {
-            ap.setMode(prev_mode);
-            $(".aplayer-body").css("height", "66px");
-            hidden = false;
-        } else {
-            if (!hidden) prev_mode = ap.mode;
-            ap.setMode("mini");
-            $(".aplayer-body").css("height", "0");
-            ap.list.hide();
-            hidden = true;
-        }
-    }
+    // var ap = $('meting-js')[0].aplayer;
+    // if (ap) {
+    //     if (prev > curr) {
+    //         ap.setMode(prev_mode);
+    //         $(".aplayer-body").css("height", "66px");
+    //         hidden = false;
+    //     } else {
+    //         if (!hidden) prev_mode = ap.mode;
+    //         ap.setMode("mini");
+    //         $(".aplayer-body").css("height", "0");
+    //         ap.list.hide();
+    //         hidden = true;
+    //     }
+    // }
     prev = curr;
 });

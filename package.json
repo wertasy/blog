@@ -1,32 +1,33 @@
 {
-    "name": "wert-blog",
-    "title": "Wertasy's Blog",
-    "author": "Wertasy <wertasy@qq.com>",
-    "version": "0.9.5",
-    "homepage": "http://canhui.wang",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/wertasy/blog"
-    },
-    "bugs": "https://github.com/wertasy/blog/issues",
-    "devDependencies": {
-        "grunt": "~1.0.4",
-        "grunt-contrib-uglify": "~4.0.1",
-        "grunt-contrib-less": "~2.0.0",
-        "grunt-contrib-cssmin": "~3.0.0",
-        "grunt-contrib-watch": "~1.1.0",
-        "grunt-banner": "~0.6.0",
-        "grunt-contrib-imagemin": "3.1.0"
-    },
-    "scripts": {
-        "jekyll": "jekyll serve -w --port=80",
-        "preview": "cd _site; python -m http.server 8020",
-        "preview2": "cd _site; python -m SimpleHTTPServer 8020",
-        "watch": "grunt watch & npm run preview & jekyll serve -w",
-        "py3wa": "grunt watch & npm run py3view & jekyll serve -w",
-        "boil": "git push boilerplate boilerplate:master",
-        "push": "git push origin master --tag",
-        "cafe": "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
-    },
-    "dependencies": {}
+  "name": "wert-blog",
+  "title": "Wertasy's Blog",
+  "author": "Wertasy <wertasy@qq.com>",
+  "version": "0.9.5",
+  "homepage": "http://canhui.wang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wertasy/blog"
+  },
+  "bugs": "https://github.com/wertasy/blog/issues",
+  "devDependencies": {
+    "grunt": "~1.0.4",
+    "grunt-banner": "~0.6.0",
+    "grunt-contrib-cssmin": "~3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "3.1.0",
+    "grunt-contrib-less": "~2.0.0",
+    "grunt-contrib-uglify": "~4.0.1",
+    "grunt-contrib-watch": "~1.1.0"
+  },
+  "scripts": {
+    "jekyll": "jekyll serve -w --port=80",
+    "preview": "cd _site; python -m http.server 8020",
+    "preview2": "cd _site; python -m SimpleHTTPServer 8020",
+    "watch": "grunt watch & npm run preview & jekyll serve -w",
+    "py3wa": "grunt watch & npm run py3view & jekyll serve -w",
+    "boil": "git push boilerplate boilerplate:master",
+    "push": "git push origin master --tag",
+    "cafe": "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
+  },
+  "dependencies": {}
 }

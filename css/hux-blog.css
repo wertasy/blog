@@ -1,3 +1,8 @@
+/*!
+ * Wertasy's Blog v0.9.5 (http://canhui.wang)
+ * Copyright 2020 Wertasy <wertasy@qq.com>
+ */
+
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -1084,7 +1089,7 @@ samp {
   margin-top: -5px;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lora', 'Times New Roman', 'FangSong', 'STFangsong', 'FangSong_GB2312', 'STFangsong', serif;
   font-style: italic;
   font-weight: 300;
   font-size: 16px;
@@ -1144,7 +1149,7 @@ samp {
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lora', 'Times New Roman', 'FangSong', 'STFangsong', 'FangSong_GB2312', 'STFangsong', serif;
   color: #a3a3a3;
   font-size: 16px;
   font-style: italic;

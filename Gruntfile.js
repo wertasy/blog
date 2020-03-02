@@ -34,6 +34,7 @@ module.exports = function (grunt) {
         usebanner: {
             dist: {
                 options: {
+                    replace: true,
                     position: 'top',
                     banner: '<%= banner %>'
                 },
@@ -51,7 +52,7 @@ module.exports = function (grunt) {
         },
         imagemin: {
             options: {
-                optimizationLevel: 5
+                optimizationLevel: 3
             },
             dist: {
                 files: [{

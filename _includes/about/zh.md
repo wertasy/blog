@@ -1,26 +1,20 @@
-> 万物皆虚，万事皆允。
+# 关于
+王灿辉 或 Wert, Wertasy [wɜ:tesɪ]
 
-你好呀，我是**王灿辉**，一名本科在校生。  
-目前就读于西安邮电大学信息管理与信息系统专业。
+# 职业
+- ZTE 茶水间搬运工
+- 某不知名实验室成员
 
-### 主修课程
-C/C++程序设计、JAVA程序设计、数据结构与算法、数据库系统原理、管理信息系统、系统工程、软件工程、计算机网络等。
+# 技能
+- 熟悉 C/C++、Python、Java、Rust、Go 的拼写
+- 掌握 Arch Linux、CentOS、OpenWrt 的开关机方式
+- 精通 Docker 的 pull 和 push
+- 注册 GitHub 帐号并且贡献了一些 Star
 
-### 技能证书
-- 有多种编程语言开发基础，如 C/C++，JAVA，C#，Python，JavaScript等；
-- 有桌面客户端、微信小程序开发经历；
-- 熟悉Linux环境编程，多线程，SOCKET编程等；
-- 熟悉数据库原理和常用性能优化，以及NoSQL，Queue原理、应用场景和限制；
-- CET-4，有优秀的听说读写能力，能够阅读和撰写英文文档；
-- 熟练使用常用办公软件。
-
-### 获奖荣誉
-- 2018.12 校级三等奖学金
-- 2018.09 第八届全国大学生电子商务“三创赛” 省赛 三等奖
-- 2018.09 第四届“互联网+”大赛 校赛 二等奖
-- 2017.03 redhat 红帽Linux挑战赛 西安赛区 第三名
-- 2016.09 校级优秀团员
-
-### 联系方式
-- QQ：[1154294693](http://wpa.qq.com/msgrd?v=3&uin=1154294693&site=qq&menu=yes)
+# 联系
+- QQ：[1154294693](http://wpa.qq.com/msgrd?v=3&uin=1154294693&site=qq&menu=yes){:target="_blank"}
+- 微博：[@王灿辉呀](http://weibo.com/6240900530){:target="_blank"}
 - E-mail：<wertasy@qq.com>
+
+# 许可
+除单独说明外，文章默认采用[知识共享署名-相同方式共享 4.0 国际许可协议 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh){:target="_blank"}进行许可。

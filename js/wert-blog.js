@@ -3,6 +3,7 @@
  * Copyright 2020 Wertasy <wertasy@qq.com>
  */
 
+
 $(document).ready(function () {
     /**
     * 缓冲函数

@@ -1,20 +1,23 @@
+<!-- add support for mathjax by voleking-->
+{% if page.mathjax or site.page-mathjax %}
 <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
+MathJax.Hub.Config({
     TeX: {
-      equationNumbers: {
-        autoNumber: "AMS"
-      }
+		equationNumbers: {
+			autoNumber: "AMS"
+		}
     },
     SVG: {
-      scale: 90
+      	scale: 90
     },
     tex2jax: {
-      inlineMath: [["$", "$"], ["\\(", "\\)"]],
-      displayMath: [["$$", "$$"], ["\\[", "\\]"]],
-      skipTags: ["script", "noscript", "style", "textarea", "pre", "code", "a"],
-      processEscapes: true,
+		inlineMath: [["$", "$"], ["\\(", "\\)"]],
+		displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+		skipTags: ["script", "noscript", "style", "textarea", "pre", "code", "a"],
+		processEscapes: true,
     }
-  });
+});
 </script>
 <script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG">
 </script>
+{% endif %}

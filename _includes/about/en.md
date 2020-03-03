@@ -1,8 +1,8 @@
-# About
+# Intro
 Wang Canhui or Wert, Wertasy [wɜ:tesɪ]
 
-# Occupation
-- ZTE teahouse porter
+# Jobs
+- ZTE bottled water porter
 - An unknown laboratory member
 
 # Skills
@@ -16,6 +16,5 @@ Wang Canhui or Wert, Wertasy [wɜ:tesɪ]
 - Weibo: [@王灿辉呀](http://weibo.com/6240900530){:target="_blank"}
 - E-mail: <wertasy@qq.com>
 
-# Permission
-
+# License
 Unless otherwise stated, the articles defaults to [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh){:target="_blank "} Licensed.

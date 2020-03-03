@@ -25,6 +25,7 @@ body {
 }
 .back-to-top:hover {
   cursor: pointer;
+  background-color: #0085A1;
 }
 @media (max-width: 768px) {
   .back-to-top {

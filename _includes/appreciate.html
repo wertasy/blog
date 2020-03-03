@@ -1,0 +1,20 @@
+{% if site.appreciate %}
+<div class="appreciate-button">
+    赞赏支持
+    <div class="popups" tabindex="1">
+        <div>
+            <div class="qrcode-img">
+                <img src="{{ site.qrcode1-img }}" alt="{{ site.qrcode1-text }}">
+            </div>
+            <div class="qrcode-text">{{ site.qrcode1-text }}</div>
+        </div>
+        <div>
+            <div class="qrcode-img">
+                <img src="{{ site.qrcode2-img }}" alt="{{ site.qrcode2-text }}">
+            </div>
+            <div class="qrcode-text">{{ site.qrcode2-text }}</div>
+        </div>
+    </div>
+</div>
+<hr style="visibility: hidden;">
+{% endif %}

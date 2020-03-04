@@ -1,9 +1,8 @@
 # 介绍
-王灿辉 或 Wert, Wertasy [wɜ:tesɪ]
+王灿辉 或 Wert, Wertasy [ˌwerˈtesɪ]
 
 # 职业
 - ZTE 桶装水搬运工
-- 某不知名实验室成员
 
 # 技能
 - 熟悉 C/C++、Python、Java、Rust、Go 的拼写
@@ -17,4 +16,4 @@
 - E-mail：<wertasy@qq.com>
 
 # 许可
-除单独说明外，文章默认采用[知识共享署名--相同方式共享 4.0 国际许可协议 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh){:target="_blank"}进行许可。
+除单独说明外，文章默认采用[知识共享署名­­­­­­­­­相同方式共享 4.0 国际许可协议 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh){:target="_blank"}进行许可。

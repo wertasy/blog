@@ -1,9 +1,8 @@
 # Intro
-Wang Canhui or Wert, Wertasy [wɜ:tesɪ]
+Wang Canhui or Wert, Wertasy [ˌwerˈtesɪ]
 
 # Jobs
 - ZTE bottled water porter
-- An unknown laboratory member
 
 # Skills
 - Familiar with the spelling of C/C++, Python, Java, Rust, Go

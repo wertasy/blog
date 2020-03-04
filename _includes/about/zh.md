@@ -16,4 +16,4 @@
 - E-mail：<wertasy@qq.com>
 
 # 许可
-除单独说明外，文章默认采用[知识共享署名--相同方式共享 4.0 国际许可协议 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh){:target="_blank"}进行许可。
+除单独说明外，文章默认采用[知识共享署名­­­­­­­­­相同方式共享 4.0 国际许可协议 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh){:target="_blank"}进行许可。

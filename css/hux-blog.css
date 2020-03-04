@@ -1638,10 +1638,9 @@ img::-moz-selection {
   width: 100%;
   bottom: 0;
   padding-bottom: 20px;
-  opacity: 0.6;
-  color: #fff;
 }
 .page-fullscreen footer .copyright {
+  opacity: 0.6;
   color: #fff;
 }
 .page-fullscreen footer .copyright a {
@@ -1649,6 +1648,9 @@ img::-moz-selection {
 }
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
+}
+.page-fullscreen footer .fa {
+  opacity: 0.6;
 }
 .MathJax_SVG_Display {
   overflow: auto;

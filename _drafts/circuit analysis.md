@@ -1,10 +1,9 @@
 ---
 layout:       post
-title:        第一课
-subtitle:     电路分析
-date:         2019-07-24
-header-img:   img/post/self-study-room.jpg
-header-mask:  0.25
+title:        电路分析
+subtitle:     第一课
+date:         2020-03-06
+mathjax:      true
 catalog:      true
 tags:
     - 电路分析
@@ -23,4 +22,4 @@ tags:
 
 功率不能被放大但是功率可以被转化，直流电源提供的直流功率转化为交流电源提供的交流功率。
 
-基极回路：Ub
+基极回路：$Ub = $

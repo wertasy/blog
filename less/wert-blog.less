@@ -139,7 +139,8 @@ a:focus {
 
 .appreciate-button {
     text-transform: uppercase;
-    background-color: #ea6f5a;
+    background-color: rgb(236, 97, 73);
+    box-shadow: 0 4px 8px 0 rgba(236, 97, 73, .48);
     color: #fff;
     font-size: 16px;
     margin: auto;
@@ -147,15 +148,17 @@ a:focus {
     position: relative;
     text-align: center;
     border-radius: 23px;
-    width: 100px;
+    width: 110px;
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
     /* webkit flicker fix */
     -webkit-font-smoothing: antialiased;
 
     /* webkit text rendering fix */
-    &.active {
-        background: #ec6149;
+    &.active,
+    &:hover {
+        background-color: #FF7355;
+        box-shadow: 0 10px 23px 0 rgba(245, 99, 73, 0.48);
     }
 
     .popups {

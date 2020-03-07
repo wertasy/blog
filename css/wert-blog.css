@@ -124,6 +124,7 @@ a:focus {
   background-color: #ec6149;
   box-shadow: 0 4px 8px 0 rgba(236, 97, 73, 0.48);
   color: #fff;
+  cursor: pointer;
   font-size: 16px;
   margin: auto;
   padding: 10px 0;

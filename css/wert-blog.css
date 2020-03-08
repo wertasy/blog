@@ -84,11 +84,11 @@ a:focus {
   -ms-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
-  -webkit-box-shadow: 0 0 60px rgba(0, 0, 0, 0.38);
-  -moz-box-shadow: 0 0 60px rgba(0, 0, 0, 0.38);
-  -ms-box-shadow: 0 0 60px rgba(0, 0, 0, 0.38);
-  -o-box-shadow: 0 0 60px rgba(0, 0, 0, 0.38);
-  box-shadow: 0 0 60px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.28);
+  -ms-box-shadow: 0 0 15px rgba(0, 0, 0, 0.28);
+  -o-box-shadow: 0 0 15px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.28);
   /* This bridges the gap so you can mouse into the popups without it disappearing */
   /*
      * border-width 属性指定了箭头的大小。如果你修改它，也要修改 margin-left 值。

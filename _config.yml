@@ -93,7 +93,7 @@ baidu-js-push: true
 # Sidebar settings
 sidebar: true                            # whether or not using Sidebar.
 sidebar-avatar: /img/avatar-hui.png      # use absolute URL, seeing it's used in both `/` and `/about/`
-sidebar-about-description: "万物皆虚，万事皆允。"
+sidebar-about-description: "一切过往，皆为序章。"
 
 # Appreciate settings
 appreciate: true

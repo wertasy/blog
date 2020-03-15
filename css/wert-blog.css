@@ -188,3 +188,16 @@ a:focus {
   color: #0085A1;
   border-color: #0085A1;
 }
+@media (min-width: 768px) {
+  pre::-webkit-scrollbar {
+    height: 4px;
+    background-color: #F5F5F5;
+  }
+  pre::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 2px;
+  }
+  pre::-webkit-scrollbar-track {
+    background-color: #282c34;
+  }
+}

@@ -201,3 +201,8 @@ a:focus {
     background-color: #282c34;
   }
 }
+@media (max-width: 767px) {
+  .table-responsive {
+    border: none;
+  }
+}

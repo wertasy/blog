@@ -189,16 +189,22 @@ a:focus {
   border-color: #0085A1;
 }
 @media (min-width: 768px) {
+  .side-catalog::-webkit-scrollbar,
   pre::-webkit-scrollbar {
-    height: 4px;
+    height: 6px;
+    width: 6px;
     background-color: #F5F5F5;
   }
+  .side-catalog::-webkit-scrollbar-thumb,
   pre::-webkit-scrollbar-thumb {
+    border-radius: 3px;
     background-color: #c1c1c1;
-    border-radius: 2px;
   }
   pre::-webkit-scrollbar-track {
     background-color: #282c34;
+  }
+  .side-catalog::-webkit-scrollbar-track {
+    border-radius: 3px;
   }
 }
 @media (max-width: 767px) {

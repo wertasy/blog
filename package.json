@@ -10,7 +10,7 @@
   },
   "bugs": "https://github.com/wertasy/blog/issues",
   "devDependencies": {
-    "grunt": "~1.0.4",
+    "grunt": "~1.5.2",
     "grunt-banner": "~0.6.0",
     "grunt-contrib-cssmin": "~3.0.0",
     "grunt-contrib-htmlmin": "^3.1.0",
